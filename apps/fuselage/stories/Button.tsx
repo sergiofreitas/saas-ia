@@ -34,6 +34,7 @@ export const Button = ({ primary = false, size = 'medium', backgroundColor, labe
       {label}
       <style jsx>{`
         button {
+          border: 10px solid ${backgroundColor};
           background-color: ${backgroundColor};
         }
       `}</style>
