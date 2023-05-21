@@ -1,0 +1,125 @@
+{
+  "title": "Gaia",
+  "usermenu": {
+    "preferences": "Preferências",
+    "signout": "Sair"
+  },
+  "pages": {
+    "login": {
+      "title": "Bem vindo a sua conta",
+      "signin": "Sign in",
+      "signup": "Sign up",
+      "divider": "ou",
+      "fields": {
+        "email": "E-mail",
+        "password": "Senha",
+        "rememberMe": "Manter logado"
+      },
+      "buttons": {
+        "submit": "Login",
+        "forgotPassword": "Esqueceu sua senha?",
+        "noAccount": "Não tem conta?"
+      }
+    },
+    "forgotPassword": {
+      "title": "Forgot your password?",
+      "fields": {
+        "email": "Email"
+      },
+      "errors": {
+        "validEmail": "Invalid email address"
+      },
+      "buttons": {
+        "submit": "Send reset instructions"
+      }
+    },
+    "register": {
+      "title": "Crie uma conta",
+      "fields": {
+        "email": "Email",
+        "password": "Password"
+      },
+      "errors": {
+        "validEmail": "Invalid email address"
+      },
+      "buttons": {
+        "submit": "Register",
+        "haveAccount": "Have an account?"
+      }
+    },
+    "updatePassword": {
+      "title": "Update password",
+      "fields": {
+        "password": "New Password",
+        "confirmPassword": "Confirm new password"
+      },
+      "errors": {
+        "confirmPasswordNotMatch": "Passwords do not match"
+      },
+      "buttons": {
+        "submit": "Update"
+      }
+    },
+    "error": {
+      "404": "Sorry, the page you visited does not exist.",
+      "info": "You may have forgotten to add the {{action}} component to {{resource}} resource.",
+      "resource404": "Are you sure you have created the {{resource}} resource.",
+      "backHome": "Back Home"
+    }
+  },
+  "actions": {
+    "list": "List",
+    "create": "Create",
+    "edit": "Edit",
+    "show": "Show"
+  },
+  "buttons": {
+    "create": "Create",
+    "save": "Save",
+    "logout": "Logout",
+    "delete": "Delete",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "confirm": "Are you sure?",
+    "filter": "Filter",
+    "clear": "Clear",
+    "refresh": "Refresh",
+    "show": "Show",
+    "undo": "Undo",
+    "import": "Import",
+    "clone": "Clone",
+    "notAccessTitle": "You don't have permission to access"
+  },
+  "warnWhenUnsavedChanges": "Are you sure you want to leave? You have unsaved changes.",
+  "notifications": {
+    "success": "Successful",
+    "error": "Error (status code: {{statusCode}})",
+    "undoable": "You have {{seconds}} seconds to undo",
+    "createSuccess": "Successfully created {{resource}}",
+    "createError": "There was an error creating {{resource}} (status code: {{statusCode}})",
+    "deleteSuccess": "Successfully deleted {{resource}}",
+    "deleteError": "Error when deleting {{resource}} (status code: {{statusCode}})",
+    "editSuccess": "Successfully edited {{resource}}",
+    "editError": "Error when editing {{resource}} (status code: {{statusCode}})",
+    "importProgress": "Importing: {{processed}}/{{total}}"
+  },
+  "fields": {
+    "errors": {
+      "mixed": {
+        "required": "O campo ${label} é um campo obrigatório"
+      },
+      "string": {
+        "email": "O campo ${label} deve ser um email válido"
+      }
+    }
+  },
+  "table": {
+    "actions": "Actions"
+  },
+  "backend": {
+    "login-error": {
+      "incorrect-email-or-password": "Email ou senha incorretos",
+      "email-needs-verification": "O seu e-mail precisa ser verificado"
+    }
+  }
+}

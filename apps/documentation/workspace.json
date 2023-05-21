@@ -1,0 +1,2107 @@
+{
+  "id" : 1,
+  "name" : "Gaia",
+  "description" : "Software para construção de modelos de AI e software para auxiliar pequenas e medias empresas",
+  "lastModifiedDate" : "2023-04-29T21:03:30Z",
+  "lastModifiedAgent" : "structurizr-javascript",
+  "properties" : {
+    "structurizr.dsl" : "d29ya3NwYWNlICJHYWlhIiAiU29mdHdhcmUgcGFyYSBjb25zdHJ1w6fDo28gZGUgbW9kZWxvcyBkZSBBSSBlIHNvZnR3YXJlIHBhcmEgYXV4aWxpYXIgcGVxdWVuYXMgZSBtZWRpYXMgZW1wcmVzYXMiIHsKICAhZG9jcyAuL21hcmtkb3duCiAgIWFkcnMgLi9hZHJzCgogICFpZGVudGlmaWVycyBoaWVyYXJjaGljYWwKCiAgbW9kZWwgewogICAgY3VzdG9tZXIgPSBwZXJzb24gIkNsaWVudGUgRmluYWwiIHsKICAgICAgdGFncyAiQ3VzdG9tZXIiCiAgICB9CiAgICBidXNpbmVzcyA9IHBlcnNvbiAiQ2xpZW50ZSBCMkIiIHsKICAgICAgdGFncyAiQjJCIgogICAgfQogICAgcmVzZWxsZXIgPSBwZXJzb24gIlJldmVuZGVkb3IiIHsKICAgICAgdGFncyAiUmVzZWxsIgogICAgfQogICAgc3RhZmYgPSBwZXJzb24gIlN0YWZmIGRvIFByb2R1dG8iCgogICAgcGxhdGZvcm0gPSBzb2Z0d2FyZVN5c3RlbSAiUGxhdGFmb3JtYSBHYWlhIiB7CiAgICAgIGRlc2NyaXB0aW9uICJQbGF0YWZvcm1hIGRlIHdoaXRlbGFiZWwgY29tIGZvY28gZW0gdXRpbGl6YcOnw6NvIGRlIElBIHBhcmEgc29sdcOnw7VlcyIKYWlfZXhlY3V0b3IgPSBjb250YWluZXIgIkFJIEV4ZWN1dG9yIiB7CiAgdGVjaG5vbG9neSAic3RlYW1zaGlwIgogIGRlc2NyaXB0aW9uICJBcGlzIHBhcmEgZXhlY3XDp8OjbyBkZSBtb2RlbG9zIEFJIgoKICBxdWVzdGlvbl9hbnN3ZXIgPSBjb21wb25lbnQgIlF1ZXN0aW9uIEFuc3dlciIgewogICAgdGVjaG5vbG9neSAicWFfd2l0aF90b29scyIKICAgIGRlc2NyaXB0aW9uICJQYWNrYWdlIGNvbSBmZXJyYW1lbnRhcyBwYXJhIHBlcmd1bnRhcyBlIHJlc3Bvc3RhcyB1dGlsaXphbmRvIGZlcnJhbWVudGFzIgogIH0KCiAgY29udGVudF9jcmVhdG9yID0gY29tcG9uZW50ICJDb250ZW50IENyZWF0b3IiIHsKICAgIHRlY2hub2xvZ3kgImNvbnRlbnRfY3JlYXRvciIKICAgIGRlc2NyaXB0aW9uICJQYWNrYWdlIGNvbSBmZXJyYW1lbnRhcyBwYXJhIGdlcmHDp8OjbyBkZSBjb250ZXVkbywgYmFzZWFkbyBub3MgaW5wdXRzIGUgcHJvbXB0cyBkbyB3b3Jrc3BhY2UiCiAgfQoKICBtZWRpYV9jcmVhdG9yID0gY29tcG9uZW50ICJNZWRpYSBDcmVhdG9yIiB7CiAgICB0ZWNobm9sb2d5ICJtZWRpYV9jcmVhdG9yIgogICAgZGVzY3JpcHRpb24gIlBhY2thZ2UgY29tIGZlcnJhbWVudGFzIHBhcmEgZ2VyYcOnw6NvIGRlIG1pZGlhcyAoSW1hZ2VtL1ZpZGVvKSwgYmFzZWFkbyBub3MgaW5wdXRzIGUgcHJvbXB0cyBkbyB3b3Jrc3BhY2UiCiAgfQp9CmFwaV9nYXRld2F5ID0gY29udGFpbmVyICJBUEkgR2F0ZXdheSIgewogIHRlY2hub2xvZ3kgIm5ob3N0IgogIGRlc2NyaXB0aW9uICJBcGlzIGRlIGdhdGV3YXkgcGFyYSBhY2Vzc28gYW8gYmFuY28gb3UgYcOnw7VlcyIKCiAgZXhlY3V0b3IgPSBjb21wb25lbnQgIkV4ZWN1dG9yIiB7CiAgICB0ZWNobm9sb2d5ICJGZWRlcmF0aW9uIgogICAgZGVzY3JpcHRpb24gIkVudGlkYWRlIHF1ZSBleGVjdXRhIGFzIHJlcXVpc2nDp8O1ZXMgbm8gQUkgRXhlY3V0b3IuIEZ1bmNpb25hIGNvbW8gZ2F0ZXdheSBkZSBleGVjdcOnw7VlcyBlIHN1YnNjcmlwdGlvbiBwYXJhIGV4ZWN1w6fDtWVzIGxvbmdhcyIKCiAgICB0aGlzIC0+IGFpX2V4ZWN1dG9yICJDb25zb21lIiAiSFRUUCIKICB9CgogIGF1dGhvcml6YXRpb24gPSBjb21wb25lbnQgIkF1dGhvcml6YXRpb24iIHsKICAgIHRlY2hub2xvZ3kgIkhhc3VyYSIKICAgIGRlc2NyaXB0aW9uICJFbnRpZGFkZSBxdWUgZ2FyYW50ZSBhcyBwZXJtaXNzw7VlcyBkZSB1bWEgbWFuZWlyYSBtYWlzIGRldGFsaGFkYSIKICB9CgogIGxvZ3MgPSBjb21wb25lbnQgIkxvZ3MiIHsKICAgIHRlY2hub2xvZ3kgIkRhdGFiYXNlIgogICAgZGVzY3JpcHRpb24gIkRvbWluaW8gcXVlIHJlZ2lzdHJhIHRvZGFzIGFzIG9wZXJhw6fDtWVzIGZlaXRhcyBubyBzaXN0ZW1hLCBwYXJhIGZpbnMgZGUgY29icmFuw6dhIG91IGxvZ3MgZGUgYXRpdmlkYWRlcyIKCiAgICBhaV9leGVjdXRvciAtPiB0aGlzICJQcm9kdXoiICJIVFRQIgogIH0KCiAgYXV0b21hdGlvbnMgPSBjb21wb25lbnQgIkF1dG9tYXRpb25zIiB7CiAgICB0ZWNobm9sb2d5ICJEYXRhYmFzZSIKICAgIGRlc2NyaXB0aW9uICJEb21pbmlvIHF1ZSBhcm1hemVuYSB0b2RhcyBhcyBhdXRvbWHDp8O1ZXMgZGEgcGxhdGFmb3JtYSwgYmVtIGNvbW8gc3VhcyBleGVjdcOnw7VlcyIKICB9CgogIHJlc2VsbGVycyA9IGNvbXBvbmVudCAiUmVzZWxsZXJzIiB7CiAgICB0ZWNobm9sb2d5ICJEYXRhYmFzZSIKICAgIGRlc2NyaXB0aW9uICJEb21pbmlvIHF1ZSBjb250cm9sYSB0b2RvcyBvcyBhc3BlY3RvcyBkZSB1bSByZXNlbGxlciIgCiAgfQoKICBjbGllbnRzID0gY29tcG9uZW50ICJDbGllbnRzIiB7CiAgICB0ZWNobm9sb2d5ICJEYXRhYmFzZSIKICAgIGRlc2NyaXB0aW9uICJEb21pbmlvIHF1ZSBjb250cm9sYSB0b2RvcyBvcyBhc3BlY3RvcyBkZSB1bSBjbGllbnRlIiAKICB9CgogIHdvcmtzcGFjZXMgPSBjb21wb25lbnQgIldvcmtzcGFjZXMiIHsKICAgIHRlY2hub2xvZ3kgIkRhdGFiYXNlIgogICAgZGVzY3JpcHRpb24gIkRvbWluaW8gcXVlIGNvbnRyb2xhIHRvZG9zIG9zIGFzcGVjdG9zIGRlIHVtIHdvcmtzcGFjZSIKCiAgICBhaV9leGVjdXRvciAtPiB0aGlzICJWYWxpZGEiICJHcmFwaFFMIgogIH0KCiAgYXBwbGljYXRpb25zID0gY29tcG9uZW50ICJBcHBsaWNhdGlvbnMiIHsKICAgIHRlY2hub2xvZ3kgIkRhdGFiYXNlIgogICAgZGVzY3JpcHRpb24gIkRvbWluaW8gcXVlIGNvbnRyb2xhIHRvZG9zIG9zIGFzcGVjdG9zIGRvcyBhcGxpY2F0aXZvcyBpbnRlcm5vcyIgICAgCiAgfQoKICBiaWxsaW5nID0gY29tcG9uZW50ICJCaWxsaW5nIiB7CiAgICB0ZWNobm9sb2d5ICJEYXRhYmFzZSIKICAgIGRlc2NyaXB0aW9uICJEb21pbmlvIHF1ZSBjb250cm9sYSB0b2RvcyBvcyBhc3BlY3RvcyBkZSBwYWdhbWVudG9zIChpbiBlIG91dCkiCiAgfQp9CgphdXRoID0gY29udGFpbmVyICJBdXRoZW50aWNhdGlvbiIgewogIHRhZ3MgIkV4dGVybmFsIgogIHRlY2hub2xvZ3kgIm5ob3N0IgogIGRlc2NyaXB0aW9uICJBcGlzIHBhcmEgYXV0ZW50aWNhw6fDo28gZGUgdXN1YXJpb3MiCgogIGFwaV9nYXRld2F5IC0+IHRoaXMgIkNvbnNvbWUiICJHcmFwaFFMIgp9CgpzdG9yYWdlID0gY29udGFpbmVyICJTdG9yYWdlIiB7CiAgdGFncyAiRXh0ZXJuYWwiCiAgdGVjaG5vbG9neSAibmhvc3QiCiAgZGVzY3JpcHRpb24gIkFwaXMgcGFyYSBhcm1hemVuYW1lbnRvIGRlIG1pZGlhcyIKCiAgYXBpX2dhdGV3YXkgLT4gdGhpcyAiQ29uc29tZSIgIkdyYXBoUUwiCn0KZnJvbnRlbmQgPSBjb250YWluZXIgIkZyb250ZW5kIiB7CiAgdGVjaG5vbG9neSAidmVyY2VsIgogIGRlc2NyaXB0aW9uICJGcm9udGVuZHMgdXRpbGl6YWRvcyBubyBzaXN0ZW1hIHRvZG8iCgogIHN5c2FkbWluID0gY29tcG9uZW50ICJHZXN0b3IgZGUgU2lzdGVtYSIgewogICAgdGVjaG5vbG9neSAidmVyY2VsIgogICAgZGVzY3JpcHRpb24gIkZyb250ZW5kIHBhcmEgZ2VzdMOjbyBkbyBzaXN0ZW1hIGNvbW8gdW0gdG9kbyIKCiAgICB0aGlzIC0+IGFwaV9nYXRld2F5LmxvZ3MgIkNvbnNvbWUiICJHcmFwaFFMIgogICAgdGhpcyAtPiBhcGlfZ2F0ZXdheS5iaWxsaW5nICJDb25zb21lIiAiR3JhcGhRTCIKICAgIHRoaXMgLT4gYXBpX2dhdGV3YXkucmVzZWxsZXJzICJDb25zb21lIiAiR3JhcGhRTCIKICB9CgogIHJlc2VsbGVyID0gY29tcG9uZW50ICJHZXN0b3IgZGUgUmV2ZW5kYSIgewogICAgdGFncyAiUmVzZWxsIgogICAgdGVjaG5vbG9neSAidmVyY2VsIgogICAgZGVzY3JpcHRpb24gIkZyb250ZW5kIHBhcmEgZ2VzdMOjbyBkb3MgcmV2ZW5kZWRvcmVzIgoKICAgIHRoaXMgLT4gYXBpX2dhdGV3YXkubG9ncyAiQ29uc29tZSIgIkdyYXBoUUwiCiAgICB0aGlzIC0+IGFwaV9nYXRld2F5LmJpbGxpbmcgIkNvbnNvbWUiICJHcmFwaFFMIgogICAgdGhpcyAtPiBhcGlfZ2F0ZXdheS5yZXNlbGxlcnMgIkNvbnNvbWUiICJHcmFwaFFMIgogICAgdGhpcyAtPiBhcGlfZ2F0ZXdheS5jbGllbnRzICJDb25zb21lIiAiR3JhcGhRTCIKICB9CgogIGNsaWVudCA9IGNvbXBvbmVudCAiR2VzdG9yIGRlIENsaWVudGUiIHsKICAgIHRhZ3MgIkIyQiIKICAgIHRlY2hub2xvZ3kgInZlcmNlbCIKICAgIGRlc2NyaXB0aW9uICJGcm9udGVuZCBwYXJhIGdlc3TDo28gZG9zIGNsaWVudGVzIgoKICAgIHRoaXMgLT4gYXBpX2dhdGV3YXkubG9ncyAiQ29uc29tZSIgIkdyYXBoUUwiCiAgICB0aGlzIC0+IGFwaV9nYXRld2F5LmJpbGxpbmcgIkNvbnNvbWUiICJHcmFwaFFMIgogICAgdGhpcyAtPiBhcGlfZ2F0ZXdheS5jbGllbnRzICJDb25zb21lIiAiR3JhcGhRTCIKICAgIHRoaXMgLT4gYXBpX2dhdGV3YXkud29ya3NwYWNlcyAiQ29uc29tZSIgIkdyYXBoUUwiCiAgfSAKCiAgYXBwX2FnZW5kYSA9IGNvbXBvbmVudCAiQXBsaWNhdGl2byBkZSBBZ2VuZGEiIHsKICAgIHRhZ3MgIkIyQiIKICAgIHRlY2hub2xvZ3kgInZlcmNlbCIKICAgIGRlc2NyaXB0aW9uICJGcm9udGVuZCBwYXJhIGFwbGljYXRpdm8gZGUgQWdlbmRhbWVudG8iCgogICAgdGhpcyAtPiBhcGlfZ2F0ZXdheS5sb2dzICJQcm9kdXoiICJHcmFwaFFMIgogICAgdGhpcyAtPiBhcGlfZ2F0ZXdheS53b3Jrc3BhY2VzICJDb25zb21lIiAiR3JhcGhRTCIKICAgIHRoaXMgLT4gYXBpX2dhdGV3YXkuYXBwbGljYXRpb25zICJDb25zb21lIiAiR3JhcGhRTCIKICB9CgogIGFwcF9ncm91cGNoYXQgPSBjb21wb25lbnQgIkFwbGljYXRpdm8gZGUgQ2hhdCBlbSBHcnVwbyIgewogICAgdGFncyAiQjJCIgogICAgdGVjaG5vbG9neSAidmVyY2VsIgogICAgZGVzY3JpcHRpb24gIkZyb250ZW5kIHBhcmEgYXBsaWNhdGl2byBkZSBDaGF0IGVtIEdydXBvIgoKICAgIHRoaXMgLT4gYXBpX2dhdGV3YXkubG9ncyAiUHJvZHV6IiAiR3JhcGhRTCIKICAgIHRoaXMgLT4gYXBpX2dhdGV3YXkud29ya3NwYWNlcyAiQ29uc29tZSIgIkdyYXBoUUwiCiAgICB0aGlzIC0+IGFwaV9nYXRld2F5LmFwcGxpY2F0aW9ucyAiQ29uc29tZSIgIkdyYXBoUUwiCiAgfQoKICBhcHBfY2hhdCA9IGNvbXBvbmVudCAiQXBsaWNhdGl2byBkZSBDaGF0IEluZGl2aWR1YWwiIHsKICAgIHRhZ3MgIkIyQiIKICAgIHRlY2hub2xvZ3kgInZlcmNlbCIKICAgIGRlc2NyaXB0aW9uICJGcm9udGVuZCBwYXJhIGFwbGljYXRpdm8gZGUgQ2hhdCBJbmRpdmlkdWFsIgoKICAgIHRoaXMgLT4gYXBpX2dhdGV3YXkubG9ncyAiUHJvZHV6IiAiR3JhcGhRTCIKICAgIHRoaXMgLT4gYXBpX2dhdGV3YXkud29ya3NwYWNlcyAiQ29uc29tZSIgIkdyYXBoUUwiCiAgICB0aGlzIC0+IGFwaV9nYXRld2F5LmFwcGxpY2F0aW9ucyAiQ29uc29tZSIgIkdyYXBoUUwiCiAgfQoKICBhcHBfYXV0b21hdGlvbiA9IGNvbXBvbmVudCAiQXBsaWNhdGl2byBkZSBBdXRvbWHDp8OjbyIgewogICAgdGFncyAiQjJCIgogICAgdGVjaG5vbG9neSAidmVyY2VsIgogICAgZGVzY3JpcHRpb24gIkZyb250ZW5kIHBhcmEgYXBsaWNhdGl2byBkZSBhdXRvbWHDp8OjbyIKCiAgICB0aGlzIC0+IGFwaV9nYXRld2F5LmxvZ3MgIlByb2R1eiIgIkdyYXBoUUwiCiAgICB0aGlzIC0+IGFwaV9nYXRld2F5LmF1dG9tYXRpb25zICJDb25zb21lIiAiR3JhcGhRTCIKICAgIHRoaXMgLT4gYXBpX2dhdGV3YXkud29ya3NwYWNlcyAiQ29uc29tZSIgIkdyYXBoUUwiCiAgICB0aGlzIC0+IGFwaV9nYXRld2F5LmFwcGxpY2F0aW9ucyAiQ29uc29tZSIgIkdyYXBoUUwiCiAgfQoKICBhcHBfY2FsbGVyID0gY29tcG9uZW50ICJBcGxpY2F0aXZvIGRlIENoYW1hZGFzIiB7CiAgICB0YWdzICJCMkIiCiAgICB0ZWNobm9sb2d5ICJ2ZXJjZWwiCiAgICBkZXNjcmlwdGlvbiAiRnJvbnRlbmQgcGFyYSBhcGxpY2HDp8OjbyBkZSBjaGFtYWRhcyBhdGl2YXMiCgogICAgdGhpcyAtPiBhcGlfZ2F0ZXdheS5sb2dzICJQcm9kdXoiICJHcmFwaFFMIgogICAgdGhpcyAtPiBhcGlfZ2F0ZXdheS53b3Jrc3BhY2VzICJDb25zb21lIiAiR3JhcGhRTCIKICAgIHRoaXMgLT4gYXBpX2dhdGV3YXkuYXBwbGljYXRpb25zICJDb25zb21lIiAiR3JhcGhRTCIKICB9Cn0KYm90cyA9IGNvbnRhaW5lciAiQm90cyIgewogIHRlY2hub2xvZ3kgInZlcmNlbCIKICBkZXNjcmlwdGlvbiAiQm90cyBxdWUgdsOjbyBmYXplciBhIGNvbXVuaWNhw6fDo28gZW50cmUgbyBzaXN0ZW1hIGUgYXMgZmVycmFtZW50YXMgZGUgY29tdW5pY2HDp8OjbyIKCiAgdGVsZWdyYW0gPSBjb21wb25lbnQgIlRlbGVncmFtIiB7CiAgICB0ZWNobm9sb2d5ICJ2ZXJjZWwiCiAgICBkZXNjcmlwdGlvbiAiZnVuw6fDo28gcXVlIHZhaSBlbnZpYXIgZSByZWNlYmVyIG1lbnNhZ2VucyB2aWEgdGVsZWdyYW0iCgogICAgdGhpcyAtPiBhcGlfZ2F0ZXdheS5sb2dzICJQcm9kdXoiICJHcmFwaFFMIgogICAgdGhpcyAtPiBhcGlfZ2F0ZXdheS5leGVjdXRvciAiRXhlY3V0YSIgIkdyYXBoUUwiCiAgfQoKICB3ZWIgPSBjb21wb25lbnQgIldlYiIgewogICAgdGVjaG5vbG9neSAidmVyY2VsIgogICAgZGVzY3JpcHRpb24gImZ1bsOnw6NvIHF1ZSB2YWkgZW52aWFyIGUgcmVjZWJlciBtZW5zYWdlbnMgdmlhIHdlYiAoY2hhdCBlbWJ1dGlkbykiCgogICAgdGhpcyAtPiBhcGlfZ2F0ZXdheS5sb2dzICJQcm9kdXoiICJHcmFwaFFMIgogICAgdGhpcyAtPiBhcGlfZ2F0ZXdheS5leGVjdXRvciAiRXhlY3V0YSIgIkdyYXBoUUwiCiAgfQoKICB3aGF0c2FwcCA9IGNvbXBvbmVudCAiV2hhdHNBcHAiIHsKICAgIHRlY2hub2xvZ3kgInR3aWxpbyIKICAgIGRlc2NyaXB0aW9uICJmdW7Dp8OjbyBxdWUgdmFpIGVudmlhciBlIHJlY2ViZXIgbWVuc2FnZW5zIHZpYSB3aGF0c2FwcCIKCiAgICB0aGlzIC0+IGFwaV9nYXRld2F5LmxvZ3MgIlByb2R1eiIgIkdyYXBoUUwiCiAgICB0aGlzIC0+IGFwaV9nYXRld2F5LmV4ZWN1dG9yICJFeGVjdXRhIiAiR3JhcGhRTCIKICB9CgogIGluc3RhZ3JhbSA9IGNvbXBvbmVudCAiSW5zdGFncmFtIiB7CiAgICB0ZWNobm9sb2d5ICJ0d2lsaW8iCiAgICBkZXNjcmlwdGlvbiAiZnVuw6fDo28gcXVlIHZhaSBlbnZpYXIgZSByZWNlYmVyIG1lbnNhZ2VucyB2aWEgZGlyZWN0IGRvIEluc3RhZ3JhbSIKCiAgICB0aGlzIC0+IGFwaV9nYXRld2F5LmxvZ3MgIlByb2R1eiIgIkdyYXBoUUwiCiAgICB0aGlzIC0+IGFwaV9nYXRld2F5LmV4ZWN1dG9yICJFeGVjdXRhIiAiR3JhcGhRTCIKICB9CgogIG1lc3NlbmdlciA9IGNvbXBvbmVudCAiRkIgTWVzc2VuZ2VyIiB7CiAgICB0ZWNobm9sb2d5ICJ0d2lsaW8iCiAgICBkZXNjcmlwdGlvbiAiZnVuw6fDo28gcXVlIHZhaSBlbnZpYXIgZSByZWNlYmVyIG1lbnNhZ2VucyB2aWEgZmIgbWVzc2VuZ2VyIgoKICAgIHRoaXMgLT4gYXBpX2dhdGV3YXkubG9ncyAiUHJvZHV6IiAiR3JhcGhRTCIKICAgIHRoaXMgLT4gYXBpX2dhdGV3YXkuZXhlY3V0b3IgIkV4ZWN1dGEiICJHcmFwaFFMIgogIH0KCiAgc21zID0gY29tcG9uZW50ICJTTVMiIHsKICAgIHRlY2hub2xvZ3kgInR3aWxpbyIKICAgIGRlc2NyaXB0aW9uICJmdW7Dp8OjbyBxdWUgZW52aWEgc21zIHBhcmEgbyBjbGllbnRlIgoKICAgIHRoaXMgLT4gYXBpX2dhdGV3YXkubG9ncyAiUHJvZHV6IiAiR3JhcGhRTCIKICB9CgogIHZvaWNlID0gY29tcG9uZW50ICJWb3oiIHsKICAgIHRlY2hub2xvZ3kgInR3aWxpbyIKICAgIGRlc2NyaXB0aW9uICJmdW7Dp8OjbyBxdWUgcmVjZWJlIGUgZmF6IGxpZ2HDp8OjbyBkZSB2b3ogcGFyYSBvcyBjbGllbnRlcyIKCiAgICB0aGlzIC0+IGFwaV9nYXRld2F5LmxvZ3MgIlByb2R1eiIgIkdyYXBoUUwiCiAgICB0aGlzIC0+IGFwaV9nYXRld2F5LmV4ZWN1dG9yICJFeGVjdXRhIiAiR3JhcGhRTCIKICB9Cn0KCmF1dG9tYXRpb25zID0gY29udGFpbmVyICJBdXRvbWF0aW9ucyIgewogIHRlY2hub2xvZ3kgInZlcmNlbCIKICBkZXNjcmlwdGlvbiAiZnVuw6fDtWVzIGNvbnN0cnVpZGFzIHBhcmEgZXhlY3V0YXIgYcOnw7VlcyBkZSBmb3JtYSBhdXRvbWF0aWNhIgogIAogIGFwaV9nYXRld2F5IC0+IHRoaXMgIlRyaWdnZXIiICJFdmVudCBUcmlnZ2VyIgogIAoKICBzZW5kX21lc3NhZ2UgPSBjb21wb25lbnQgIlNlbmQgTWVzc2FnZSIgewogICAgdGVjaG5vbG9neSAidmVyY2VsIgogICAgZGVzY3JpcHRpb24gImZ1bsOnw6NvIHF1ZSBlbnZpYSB1bWEgbWVuc2FnZW0gcGFyYSBvIGNsaWVudGUgdmlhIGJvdCIKCiAgICB0aGlzIC0+IGFwaV9nYXRld2F5LmF1dG9tYXRpb25zICJDb25zb21lIiAiR3JhcGhRTCIKICAgIHRoaXMgLT4gYXBpX2dhdGV3YXkubG9ncyAiUHJvZHV6IiAiR3JhcGhRTCIKICAgIHRoaXMgLT4gYm90cyAiRW52aWEgbWVuc2FnZW0iICJIVFRQIgogIH0KCiAgdHJpZ2dlcl9haSA9IGNvbXBvbmVudCAiVHJpZ2dlciBBSSIgewogICAgdGVjaG5vbG9neSAidmVyY2VsIgogICAgZGVzY3JpcHRpb24gImZ1bsOnw6NvIHF1ZSBpbmljaWEgYSBleGVjdcOnw6NvIGRlIHVtYSBvcGVyYcOnw6NvIGVtIHVtYSBBSSIKCiAgICB0aGlzIC0+IGFwaV9nYXRld2F5LmF1dG9tYXRpb25zICJDb25zb21lIiAiR3JhcGhRTCIKICAgIHRoaXMgLT4gYXBpX2dhdGV3YXkubG9ncyAiUHJvZHV6IiAiR3JhcGhRTCIKICAgIHRoaXMgLT4gYXBpX2dhdGV3YXkuZXhlY3V0b3IgIkV4ZWN1dGEiICJHcmFwaFFMIgogICAgdGhpcyAtPiBib3RzICJFbnZpYSBtZW5zYWdlbSIgIkhUVFAiCiAgfQoKICBtdXRhdGlvbiA9IGNvbXBvbmVudCAiRXhlY3V0ZSBNdXRhdGlvbiIgewogICAgdGVjaG5vbG9neSAidmVyY2VsIgogICAgZGVzY3JpcHRpb24gImZ1bsOnw6NvIHF1ZSBleGVjdXRhIHVtYSBtdXRhw6fDo28gbm8gZGF0YWJhc2UiCgogICAgdGhpcyAtPiBhcGlfZ2F0ZXdheS5hdXRvbWF0aW9ucyAiQ29uc29tZSIgIkdyYXBoUUwiCiAgICB0aGlzIC0+IGFwaV9nYXRld2F5LmxvZ3MgIlByb2R1eiIgIkdyYXBoUUwiCiAgfQp9Cgpjcm9uam9icyA9IGNvbnRhaW5lciAiQ3JvbmpvYnMiIHsKICB0ZWNobm9sb2d5ICJ2ZXJjZWwiCiAgZGVzY3JpcHRpb24gImZ1bsOnw7VlcyBxdWUgZXhlY3V0YW0gZGUgZm9ybWEgY29udGludWEiCgogIHRyaWdnZXJfYXV0b21hdGlvbiA9IGNvbXBvbmVudCAiRXhlY3V0YSBhdXRvbWHDp8OjbyIgewogICAgdGVjaG5vbG9neSAidmVyY2VsIgogICAgZGVzY3JpcHRpb24gImZ1bsOnw6NvIHF1ZSByb2RhIGEgY2FkYSAzMHMgZSBkaXNwYXJhIHRvZGFzIGFzIGF1dG9tYcOnw7VlcyBkZSB0ZW1wbyIKCiAgICB0aGlzIC0+IGFwaV9nYXRld2F5LmxvZ3MgIlByb2R1eiIgIkdyYXBoUUwiCiAgICB0aGlzIC0+IGF1dG9tYXRpb25zICJUcmlnZ2VyIiAiSFRUUCIgCiAgfQoKICBmYXR1cmFtZW50byA9IGNvbXBvbmVudCAiRmF0dXJhbWVudG8iIHsKICAgIHRlY2hub2xvZ3kgInZlcmNlbCIKICAgIGRlc2NyaXB0aW9uICJmdW7Dp8OjbyBxdWUgcm9kYSBkaWFyaWFtZW50ZSBwYXJhIGZlY2hhciBvIGZhdHVyYW1lbnRvIGRvIGRpYSBkb3MgY2xpZW50ZXMiCgogICAgdGhpcyAtPiBhcGlfZ2F0ZXdheS5sb2dzICJQcm9kdXoiICJHcmFwaFFMIgogIH0KfQogICAgfQoKICAgIHN0YWZmIC0+IHBsYXRmb3JtLmZyb250ZW5kLnN5c2FkbWluICJBY2Vzc2EiCiAgICByZXNlbGxlciAtPiBwbGF0Zm9ybS5mcm9udGVuZC5yZXNlbGxlciAiQWNlc3NhIgoKICAgIGJ1c2luZXNzIC0+IHBsYXRmb3JtLmZyb250ZW5kLmNsaWVudCAiQWNlc3NhIgogICAgYnVzaW5lc3MgLT4gcGxhdGZvcm0uZnJvbnRlbmQuYXBwX2FnZW5kYSAiQWNlc3NhIgogICAgYnVzaW5lc3MgLT4gcGxhdGZvcm0uZnJvbnRlbmQuYXBwX2F1dG9tYXRpb24gIkFjZXNzYSIKICAgIGJ1c2luZXNzIC0+IHBsYXRmb3JtLmZyb250ZW5kLmFwcF9jYWxsZXIgIkFjZXNzYSIKICAgIGJ1c2luZXNzIC0+IHBsYXRmb3JtLmZyb250ZW5kLmFwcF9jaGF0ICJBY2Vzc2EiCiAgICBidXNpbmVzcyAtPiBwbGF0Zm9ybS5mcm9udGVuZC5hcHBfZ3JvdXBjaGF0ICJBY2Vzc2EiCgogICAgY3VzdG9tZXIgLT4gcGxhdGZvcm0uYm90cy53ZWIgIlV0aWxpemEiCiAgICBjdXN0b21lciAtPiBwbGF0Zm9ybS5ib3RzLnRlbGVncmFtICJVdGlsaXphIgogICAgY3VzdG9tZXIgLT4gcGxhdGZvcm0uYm90cy5pbnN0YWdyYW0gIlV0aWxpemEiCiAgICBjdXN0b21lciAtPiBwbGF0Zm9ybS5ib3RzLm1lc3NlbmdlciAiVXRpbGl6YSIKICAgIGN1c3RvbWVyIC0+IHBsYXRmb3JtLmJvdHMud2hhdHNhcHAgIlV0aWxpemEiCiAgICBjdXN0b21lciAtPiBwbGF0Zm9ybS5ib3RzLnZvaWNlICJVdGlsaXphIgogICAgcGxhdGZvcm0uYm90cy5zbXMgLT4gY3VzdG9tZXIgIlV0aWxpemEiCiAgfQoKICB2aWV3cyB7CmNvbXBvbmVudCBwbGF0Zm9ybS5hcGlfZ2F0ZXdheSB7CiAgaW5jbHVkZSAqCiAgYXV0b2xheW91dCB0Ygp9Cgpjb21wb25lbnQgcGxhdGZvcm0uY3JvbmpvYnMgewogIGluY2x1ZGUgKgogIGF1dG9sYXlvdXQgbHIKfQoKY29tcG9uZW50IHBsYXRmb3JtLmF1dG9tYXRpb25zIHsKICBpbmNsdWRlICoKICBhdXRvbGF5b3V0IGxyCn0KCmNvbXBvbmVudCBwbGF0Zm9ybS5mcm9udGVuZCB7CiAgaW5jbHVkZSAqCiAgYXV0b2xheW91dCBscgp9Cgpjb21wb25lbnQgcGxhdGZvcm0uYm90cyB7CiAgaW5jbHVkZSAqCiAgYXV0b2xheW91dCBscgp9Cgpjb21wb25lbnQgcGxhdGZvcm0uYWlfZXhlY3V0b3IgewogIGluY2x1ZGUgKgogIGF1dG9sYXlvdXQgbHIKfQpjb250YWluZXIgcGxhdGZvcm0gewogIGluY2x1ZGUgKgp9CnN5c3RlbUNvbnRleHQgcGxhdGZvcm0gewogIGluY2x1ZGUgKgogIGF1dG9sYXlvdXQgbHIKfQoKICAgIHN0eWxlcyB7CiAgICAgIGVsZW1lbnQgIkN1c3RvbWVyIiB7CiAgICAgICAgYmFja2dyb3VuZCAjOTk5OTk5CiAgICAgIH0KICAgICAgZWxlbWVudCAiQjJCIiB7CiAgICAgICAgYmFja2dyb3VuZCAjM2Y4NjI0CiAgICAgICAgY29sb3IgI2ZmZmZmZgogICAgICB9CiAgICAgIGVsZW1lbnQgIlJlc2VsbCIgewogICAgICAgIGJhY2tncm91bmQgIzY5M2NjNQogICAgICAgIGNvbG9yICNmZmZmZmYKICAgICAgfQogICAgfQoKICAgIHRoZW1lIGRlZmF1bHQKICAgIHRoZW1lIGh0dHBzOi8vc3RhdGljLnN0cnVjdHVyaXpyLmNvbS90aGVtZXMvYW1hem9uLXdlYi1zZXJ2aWNlcy0yMDIwLjA0LjMwL3RoZW1lLmpzb24KICB9Cn0K"
+  },
+  "configuration" : { },
+  "model" : {
+    "people" : [ {
+      "id" : "3",
+      "tags" : "Element,Person,Resell",
+      "properties" : {
+        "structurizr.dsl.identifier" : "reseller"
+      },
+      "name" : "Revendedor",
+      "relationships" : [ {
+        "id" : "149",
+        "sourceId" : "3",
+        "destinationId" : "29",
+        "description" : "Acessa",
+        "linkedRelationshipId" : "148"
+      }, {
+        "id" : "150",
+        "sourceId" : "3",
+        "destinationId" : "5",
+        "description" : "Acessa",
+        "linkedRelationshipId" : "148"
+      }, {
+        "id" : "148",
+        "tags" : "Relationship",
+        "sourceId" : "3",
+        "destinationId" : "39",
+        "description" : "Acessa"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "1",
+      "tags" : "Element,Person,Customer",
+      "properties" : {
+        "structurizr.dsl.identifier" : "customer"
+      },
+      "name" : "Cliente Final",
+      "relationships" : [ {
+        "id" : "159",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "89",
+        "description" : "Utiliza"
+      }, {
+        "id" : "162",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "82",
+        "description" : "Utiliza"
+      }, {
+        "id" : "160",
+        "sourceId" : "1",
+        "destinationId" : "81",
+        "description" : "Utiliza",
+        "linkedRelationshipId" : "159"
+      }, {
+        "id" : "163",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "97",
+        "description" : "Utiliza"
+      }, {
+        "id" : "165",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "93",
+        "description" : "Utiliza"
+      }, {
+        "id" : "166",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "108",
+        "description" : "Utiliza"
+      }, {
+        "id" : "164",
+        "tags" : "Relationship",
+        "sourceId" : "1",
+        "destinationId" : "101",
+        "description" : "Utiliza"
+      }, {
+        "id" : "161",
+        "sourceId" : "1",
+        "destinationId" : "5",
+        "description" : "Utiliza",
+        "linkedRelationshipId" : "159"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "4",
+      "tags" : "Element,Person",
+      "properties" : {
+        "structurizr.dsl.identifier" : "staff"
+      },
+      "name" : "Staff do Produto",
+      "relationships" : [ {
+        "id" : "146",
+        "sourceId" : "4",
+        "destinationId" : "29",
+        "description" : "Acessa",
+        "linkedRelationshipId" : "145"
+      }, {
+        "id" : "145",
+        "tags" : "Relationship",
+        "sourceId" : "4",
+        "destinationId" : "30",
+        "description" : "Acessa"
+      }, {
+        "id" : "147",
+        "sourceId" : "4",
+        "destinationId" : "5",
+        "description" : "Acessa",
+        "linkedRelationshipId" : "145"
+      } ],
+      "location" : "Unspecified"
+    }, {
+      "id" : "2",
+      "tags" : "Element,Person,B2B",
+      "properties" : {
+        "structurizr.dsl.identifier" : "business"
+      },
+      "name" : "Cliente B2B",
+      "relationships" : [ {
+        "id" : "155",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "69",
+        "description" : "Acessa"
+      }, {
+        "id" : "157",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "64",
+        "description" : "Acessa"
+      }, {
+        "id" : "156",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "76",
+        "description" : "Acessa"
+      }, {
+        "id" : "154",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "53",
+        "description" : "Acessa"
+      }, {
+        "id" : "153",
+        "sourceId" : "2",
+        "destinationId" : "5",
+        "description" : "Acessa",
+        "linkedRelationshipId" : "151"
+      }, {
+        "id" : "158",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "59",
+        "description" : "Acessa"
+      }, {
+        "id" : "151",
+        "tags" : "Relationship",
+        "sourceId" : "2",
+        "destinationId" : "46",
+        "description" : "Acessa"
+      }, {
+        "id" : "152",
+        "sourceId" : "2",
+        "destinationId" : "29",
+        "description" : "Acessa",
+        "linkedRelationshipId" : "151"
+      } ],
+      "location" : "Unspecified"
+    } ],
+    "softwareSystems" : [ {
+      "id" : "5",
+      "tags" : "Element,Software System",
+      "properties" : {
+        "structurizr.dsl.identifier" : "platform"
+      },
+      "name" : "Plataforma Gaia",
+      "description" : "Plataforma de whitelabel com foco em utilização de IA para soluções",
+      "relationships" : [ {
+        "id" : "169",
+        "sourceId" : "5",
+        "destinationId" : "1",
+        "description" : "Utiliza",
+        "linkedRelationshipId" : "167"
+      } ],
+      "location" : "Unspecified",
+      "containers" : [ {
+        "id" : "134",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "platform.cronjobs"
+        },
+        "name" : "Cronjobs",
+        "description" : "funções que executam de forma continua",
+        "relationships" : [ {
+          "id" : "139",
+          "sourceId" : "134",
+          "destinationId" : "10",
+          "description" : "Produz",
+          "technology" : "GraphQL",
+          "linkedRelationshipId" : "136"
+        }, {
+          "id" : "141",
+          "sourceId" : "134",
+          "destinationId" : "112",
+          "description" : "Trigger",
+          "technology" : "HTTP",
+          "linkedRelationshipId" : "140"
+        }, {
+          "id" : "138",
+          "sourceId" : "134",
+          "destinationId" : "15",
+          "description" : "Produz",
+          "technology" : "GraphQL",
+          "linkedRelationshipId" : "136"
+        } ],
+        "technology" : "vercel",
+        "components" : [ {
+          "id" : "135",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.cronjobs.trigger_automation"
+          },
+          "name" : "Executa automação",
+          "description" : "função que roda a cada 30s e dispara todas as automações de tempo",
+          "relationships" : [ {
+            "id" : "140",
+            "tags" : "Relationship",
+            "sourceId" : "135",
+            "destinationId" : "112",
+            "description" : "Trigger",
+            "technology" : "HTTP"
+          }, {
+            "id" : "136",
+            "tags" : "Relationship",
+            "sourceId" : "135",
+            "destinationId" : "15",
+            "description" : "Produz",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "137",
+            "sourceId" : "135",
+            "destinationId" : "10",
+            "description" : "Produz",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "136"
+          } ],
+          "technology" : "vercel",
+          "documentation" : { }
+        }, {
+          "id" : "142",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.cronjobs.faturamento"
+          },
+          "name" : "Faturamento",
+          "description" : "função que roda diariamente para fechar o faturamento do dia dos clientes",
+          "relationships" : [ {
+            "id" : "143",
+            "tags" : "Relationship",
+            "sourceId" : "142",
+            "destinationId" : "15",
+            "description" : "Produz",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "144",
+            "sourceId" : "142",
+            "destinationId" : "10",
+            "description" : "Produz",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "143"
+          } ],
+          "technology" : "vercel",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "10",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "platform.api_gateway"
+        },
+        "name" : "API Gateway",
+        "description" : "Apis de gateway para acesso ao banco ou ações",
+        "relationships" : [ {
+          "id" : "13",
+          "sourceId" : "10",
+          "destinationId" : "6",
+          "description" : "Consome",
+          "technology" : "HTTP",
+          "linkedRelationshipId" : "12"
+        }, {
+          "id" : "113",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "112",
+          "description" : "Trigger",
+          "technology" : "Event Trigger"
+        }, {
+          "id" : "26",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "25",
+          "description" : "Consome",
+          "technology" : "GraphQL"
+        }, {
+          "id" : "28",
+          "tags" : "Relationship",
+          "sourceId" : "10",
+          "destinationId" : "27",
+          "description" : "Consome",
+          "technology" : "GraphQL"
+        } ],
+        "technology" : "nhost",
+        "components" : [ {
+          "id" : "20",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.api_gateway.clients"
+          },
+          "name" : "Clients",
+          "description" : "Dominio que controla todos os aspectos de um cliente",
+          "technology" : "Database",
+          "documentation" : { }
+        }, {
+          "id" : "18",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.api_gateway.automations"
+          },
+          "name" : "Automations",
+          "description" : "Dominio que armazena todas as automações da plataforma, bem como suas execuções",
+          "technology" : "Database",
+          "documentation" : { }
+        }, {
+          "id" : "19",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.api_gateway.resellers"
+          },
+          "name" : "Resellers",
+          "description" : "Dominio que controla todos os aspectos de um reseller",
+          "technology" : "Database",
+          "documentation" : { }
+        }, {
+          "id" : "11",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.api_gateway.executor"
+          },
+          "name" : "Executor",
+          "description" : "Entidade que executa as requisições no AI Executor. Funciona como gateway de execuções e subscription para execuções longas",
+          "relationships" : [ {
+            "id" : "12",
+            "tags" : "Relationship",
+            "sourceId" : "11",
+            "destinationId" : "6",
+            "description" : "Consome",
+            "technology" : "HTTP"
+          } ],
+          "technology" : "Federation",
+          "documentation" : { }
+        }, {
+          "id" : "24",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.api_gateway.billing"
+          },
+          "name" : "Billing",
+          "description" : "Dominio que controla todos os aspectos de pagamentos (in e out)",
+          "technology" : "Database",
+          "documentation" : { }
+        }, {
+          "id" : "14",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.api_gateway.authorization"
+          },
+          "name" : "Authorization",
+          "description" : "Entidade que garante as permissões de uma maneira mais detalhada",
+          "technology" : "Hasura",
+          "documentation" : { }
+        }, {
+          "id" : "21",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.api_gateway.workspaces"
+          },
+          "name" : "Workspaces",
+          "description" : "Dominio que controla todos os aspectos de um workspace",
+          "technology" : "Database",
+          "documentation" : { }
+        }, {
+          "id" : "15",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.api_gateway.logs"
+          },
+          "name" : "Logs",
+          "description" : "Dominio que registra todas as operações feitas no sistema, para fins de cobrança ou logs de atividades",
+          "technology" : "Database",
+          "documentation" : { }
+        }, {
+          "id" : "23",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.api_gateway.applications"
+          },
+          "name" : "Applications",
+          "description" : "Dominio que controla todos os aspectos dos aplicativos internos",
+          "technology" : "Database",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "6",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "platform.ai_executor"
+        },
+        "name" : "AI Executor",
+        "description" : "Apis para execução de modelos AI",
+        "relationships" : [ {
+          "id" : "16",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "15",
+          "description" : "Produz",
+          "technology" : "HTTP"
+        }, {
+          "id" : "17",
+          "sourceId" : "6",
+          "destinationId" : "10",
+          "description" : "Produz",
+          "technology" : "HTTP",
+          "linkedRelationshipId" : "16"
+        }, {
+          "id" : "22",
+          "tags" : "Relationship",
+          "sourceId" : "6",
+          "destinationId" : "21",
+          "description" : "Valida",
+          "technology" : "GraphQL"
+        } ],
+        "technology" : "steamship",
+        "components" : [ {
+          "id" : "8",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.ai_executor.content_creator"
+          },
+          "name" : "Content Creator",
+          "description" : "Package com ferramentas para geração de conteudo, baseado nos inputs e prompts do workspace",
+          "technology" : "content_creator",
+          "documentation" : { }
+        }, {
+          "id" : "7",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.ai_executor.question_answer"
+          },
+          "name" : "Question Answer",
+          "description" : "Package com ferramentas para perguntas e respostas utilizando ferramentas",
+          "technology" : "qa_with_tools",
+          "documentation" : { }
+        }, {
+          "id" : "9",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.ai_executor.media_creator"
+          },
+          "name" : "Media Creator",
+          "description" : "Package com ferramentas para geração de midias (Imagem/Video), baseado nos inputs e prompts do workspace",
+          "technology" : "media_creator",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "27",
+        "tags" : "Element,Container,External",
+        "properties" : {
+          "structurizr.dsl.identifier" : "platform.storage"
+        },
+        "name" : "Storage",
+        "description" : "Apis para armazenamento de midias",
+        "technology" : "nhost",
+        "documentation" : { }
+      }, {
+        "id" : "112",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "platform.automations"
+        },
+        "name" : "Automations",
+        "description" : "funções construidas para executar ações de forma automatica",
+        "relationships" : [ {
+          "id" : "120",
+          "sourceId" : "112",
+          "destinationId" : "15",
+          "description" : "Produz",
+          "technology" : "GraphQL",
+          "linkedRelationshipId" : "119"
+        }, {
+          "id" : "117",
+          "sourceId" : "112",
+          "destinationId" : "18",
+          "description" : "Consome",
+          "technology" : "GraphQL",
+          "linkedRelationshipId" : "115"
+        }, {
+          "id" : "128",
+          "sourceId" : "112",
+          "destinationId" : "11",
+          "description" : "Executa",
+          "technology" : "GraphQL",
+          "linkedRelationshipId" : "127"
+        }, {
+          "id" : "122",
+          "sourceId" : "112",
+          "destinationId" : "81",
+          "description" : "Envia mensagem",
+          "technology" : "HTTP",
+          "linkedRelationshipId" : "121"
+        }, {
+          "id" : "118",
+          "sourceId" : "112",
+          "destinationId" : "10",
+          "description" : "Consome",
+          "technology" : "GraphQL",
+          "linkedRelationshipId" : "115"
+        } ],
+        "technology" : "vercel",
+        "components" : [ {
+          "id" : "130",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.automations.mutation"
+          },
+          "name" : "Execute Mutation",
+          "description" : "função que executa uma mutação no database",
+          "relationships" : [ {
+            "id" : "133",
+            "tags" : "Relationship",
+            "sourceId" : "130",
+            "destinationId" : "15",
+            "description" : "Produz",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "132",
+            "sourceId" : "130",
+            "destinationId" : "10",
+            "description" : "Consome",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "131"
+          }, {
+            "id" : "131",
+            "tags" : "Relationship",
+            "sourceId" : "130",
+            "destinationId" : "18",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          } ],
+          "technology" : "vercel",
+          "documentation" : { }
+        }, {
+          "id" : "114",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.automations.send_message"
+          },
+          "name" : "Send Message",
+          "description" : "função que envia uma mensagem para o cliente via bot",
+          "relationships" : [ {
+            "id" : "119",
+            "tags" : "Relationship",
+            "sourceId" : "114",
+            "destinationId" : "15",
+            "description" : "Produz",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "121",
+            "tags" : "Relationship",
+            "sourceId" : "114",
+            "destinationId" : "81",
+            "description" : "Envia mensagem",
+            "technology" : "HTTP"
+          }, {
+            "id" : "116",
+            "sourceId" : "114",
+            "destinationId" : "10",
+            "description" : "Consome",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "115"
+          }, {
+            "id" : "115",
+            "tags" : "Relationship",
+            "sourceId" : "114",
+            "destinationId" : "18",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          } ],
+          "technology" : "vercel",
+          "documentation" : { }
+        }, {
+          "id" : "123",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.automations.trigger_ai"
+          },
+          "name" : "Trigger AI",
+          "description" : "função que inicia a execução de uma operação em uma AI",
+          "relationships" : [ {
+            "id" : "125",
+            "sourceId" : "123",
+            "destinationId" : "10",
+            "description" : "Consome",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "124"
+          }, {
+            "id" : "126",
+            "tags" : "Relationship",
+            "sourceId" : "123",
+            "destinationId" : "15",
+            "description" : "Produz",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "127",
+            "tags" : "Relationship",
+            "sourceId" : "123",
+            "destinationId" : "11",
+            "description" : "Executa",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "129",
+            "tags" : "Relationship",
+            "sourceId" : "123",
+            "destinationId" : "81",
+            "description" : "Envia mensagem",
+            "technology" : "HTTP"
+          }, {
+            "id" : "124",
+            "tags" : "Relationship",
+            "sourceId" : "123",
+            "destinationId" : "18",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          } ],
+          "technology" : "vercel",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "25",
+        "tags" : "Element,Container,External",
+        "properties" : {
+          "structurizr.dsl.identifier" : "platform.auth"
+        },
+        "name" : "Authentication",
+        "description" : "Apis para autenticação de usuarios",
+        "technology" : "nhost",
+        "documentation" : { }
+      }, {
+        "id" : "29",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "platform.frontend"
+        },
+        "name" : "Frontend",
+        "description" : "Frontends utilizados no sistema todo",
+        "relationships" : [ {
+          "id" : "38",
+          "sourceId" : "29",
+          "destinationId" : "19",
+          "description" : "Consome",
+          "technology" : "GraphQL",
+          "linkedRelationshipId" : "37"
+        }, {
+          "id" : "45",
+          "sourceId" : "29",
+          "destinationId" : "20",
+          "description" : "Consome",
+          "technology" : "GraphQL",
+          "linkedRelationshipId" : "44"
+        }, {
+          "id" : "52",
+          "sourceId" : "29",
+          "destinationId" : "21",
+          "description" : "Consome",
+          "technology" : "GraphQL",
+          "linkedRelationshipId" : "51"
+        }, {
+          "id" : "58",
+          "sourceId" : "29",
+          "destinationId" : "23",
+          "description" : "Consome",
+          "technology" : "GraphQL",
+          "linkedRelationshipId" : "57"
+        }, {
+          "id" : "36",
+          "sourceId" : "29",
+          "destinationId" : "24",
+          "description" : "Consome",
+          "technology" : "GraphQL",
+          "linkedRelationshipId" : "35"
+        }, {
+          "id" : "33",
+          "sourceId" : "29",
+          "destinationId" : "15",
+          "description" : "Consome",
+          "technology" : "GraphQL",
+          "linkedRelationshipId" : "31"
+        }, {
+          "id" : "73",
+          "sourceId" : "29",
+          "destinationId" : "18",
+          "description" : "Consome",
+          "technology" : "GraphQL",
+          "linkedRelationshipId" : "72"
+        }, {
+          "id" : "34",
+          "sourceId" : "29",
+          "destinationId" : "10",
+          "description" : "Consome",
+          "technology" : "GraphQL",
+          "linkedRelationshipId" : "31"
+        } ],
+        "technology" : "vercel",
+        "components" : [ {
+          "id" : "76",
+          "tags" : "Element,Component,B2B",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.frontend.app_caller"
+          },
+          "name" : "Aplicativo de Chamadas",
+          "description" : "Frontend para aplicação de chamadas ativas",
+          "relationships" : [ {
+            "id" : "80",
+            "tags" : "Relationship",
+            "sourceId" : "76",
+            "destinationId" : "23",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "77",
+            "tags" : "Relationship",
+            "sourceId" : "76",
+            "destinationId" : "15",
+            "description" : "Produz",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "79",
+            "tags" : "Relationship",
+            "sourceId" : "76",
+            "destinationId" : "21",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "78",
+            "sourceId" : "76",
+            "destinationId" : "10",
+            "description" : "Produz",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "77"
+          } ],
+          "technology" : "vercel",
+          "documentation" : { }
+        }, {
+          "id" : "46",
+          "tags" : "Element,Component,B2B",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.frontend.client"
+          },
+          "name" : "Gestor de Cliente",
+          "description" : "Frontend para gestão dos clientes",
+          "relationships" : [ {
+            "id" : "48",
+            "sourceId" : "46",
+            "destinationId" : "10",
+            "description" : "Consome",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "47"
+          }, {
+            "id" : "49",
+            "tags" : "Relationship",
+            "sourceId" : "46",
+            "destinationId" : "24",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "51",
+            "tags" : "Relationship",
+            "sourceId" : "46",
+            "destinationId" : "21",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "47",
+            "tags" : "Relationship",
+            "sourceId" : "46",
+            "destinationId" : "15",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "50",
+            "tags" : "Relationship",
+            "sourceId" : "46",
+            "destinationId" : "20",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          } ],
+          "technology" : "vercel",
+          "documentation" : { }
+        }, {
+          "id" : "30",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.frontend.sysadmin"
+          },
+          "name" : "Gestor de Sistema",
+          "description" : "Frontend para gestão do sistema como um todo",
+          "relationships" : [ {
+            "id" : "37",
+            "tags" : "Relationship",
+            "sourceId" : "30",
+            "destinationId" : "19",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "31",
+            "tags" : "Relationship",
+            "sourceId" : "30",
+            "destinationId" : "15",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "35",
+            "tags" : "Relationship",
+            "sourceId" : "30",
+            "destinationId" : "24",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "32",
+            "sourceId" : "30",
+            "destinationId" : "10",
+            "description" : "Consome",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "31"
+          } ],
+          "technology" : "vercel",
+          "documentation" : { }
+        }, {
+          "id" : "64",
+          "tags" : "Element,Component,B2B",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.frontend.app_chat"
+          },
+          "name" : "Aplicativo de Chat Individual",
+          "description" : "Frontend para aplicativo de Chat Individual",
+          "relationships" : [ {
+            "id" : "65",
+            "tags" : "Relationship",
+            "sourceId" : "64",
+            "destinationId" : "15",
+            "description" : "Produz",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "67",
+            "tags" : "Relationship",
+            "sourceId" : "64",
+            "destinationId" : "21",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "66",
+            "sourceId" : "64",
+            "destinationId" : "10",
+            "description" : "Produz",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "65"
+          }, {
+            "id" : "68",
+            "tags" : "Relationship",
+            "sourceId" : "64",
+            "destinationId" : "23",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          } ],
+          "technology" : "vercel",
+          "documentation" : { }
+        }, {
+          "id" : "53",
+          "tags" : "Element,Component,B2B",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.frontend.app_agenda"
+          },
+          "name" : "Aplicativo de Agenda",
+          "description" : "Frontend para aplicativo de Agendamento",
+          "relationships" : [ {
+            "id" : "55",
+            "sourceId" : "53",
+            "destinationId" : "10",
+            "description" : "Produz",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "54"
+          }, {
+            "id" : "54",
+            "tags" : "Relationship",
+            "sourceId" : "53",
+            "destinationId" : "15",
+            "description" : "Produz",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "57",
+            "tags" : "Relationship",
+            "sourceId" : "53",
+            "destinationId" : "23",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "56",
+            "tags" : "Relationship",
+            "sourceId" : "53",
+            "destinationId" : "21",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          } ],
+          "technology" : "vercel",
+          "documentation" : { }
+        }, {
+          "id" : "59",
+          "tags" : "Element,Component,B2B",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.frontend.app_groupchat"
+          },
+          "name" : "Aplicativo de Chat em Grupo",
+          "description" : "Frontend para aplicativo de Chat em Grupo",
+          "relationships" : [ {
+            "id" : "62",
+            "tags" : "Relationship",
+            "sourceId" : "59",
+            "destinationId" : "21",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "60",
+            "tags" : "Relationship",
+            "sourceId" : "59",
+            "destinationId" : "15",
+            "description" : "Produz",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "63",
+            "tags" : "Relationship",
+            "sourceId" : "59",
+            "destinationId" : "23",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "61",
+            "sourceId" : "59",
+            "destinationId" : "10",
+            "description" : "Produz",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "60"
+          } ],
+          "technology" : "vercel",
+          "documentation" : { }
+        }, {
+          "id" : "69",
+          "tags" : "Element,Component,B2B",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.frontend.app_automation"
+          },
+          "name" : "Aplicativo de Automação",
+          "description" : "Frontend para aplicativo de automação",
+          "relationships" : [ {
+            "id" : "70",
+            "tags" : "Relationship",
+            "sourceId" : "69",
+            "destinationId" : "15",
+            "description" : "Produz",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "75",
+            "tags" : "Relationship",
+            "sourceId" : "69",
+            "destinationId" : "23",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "71",
+            "sourceId" : "69",
+            "destinationId" : "10",
+            "description" : "Produz",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "70"
+          }, {
+            "id" : "72",
+            "tags" : "Relationship",
+            "sourceId" : "69",
+            "destinationId" : "18",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "74",
+            "tags" : "Relationship",
+            "sourceId" : "69",
+            "destinationId" : "21",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          } ],
+          "technology" : "vercel",
+          "documentation" : { }
+        }, {
+          "id" : "39",
+          "tags" : "Element,Component,Resell",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.frontend.reseller"
+          },
+          "name" : "Gestor de Revenda",
+          "description" : "Frontend para gestão dos revendedores",
+          "relationships" : [ {
+            "id" : "43",
+            "tags" : "Relationship",
+            "sourceId" : "39",
+            "destinationId" : "19",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "44",
+            "tags" : "Relationship",
+            "sourceId" : "39",
+            "destinationId" : "20",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "40",
+            "tags" : "Relationship",
+            "sourceId" : "39",
+            "destinationId" : "15",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "42",
+            "tags" : "Relationship",
+            "sourceId" : "39",
+            "destinationId" : "24",
+            "description" : "Consome",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "41",
+            "sourceId" : "39",
+            "destinationId" : "10",
+            "description" : "Consome",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "40"
+          } ],
+          "technology" : "vercel",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      }, {
+        "id" : "81",
+        "tags" : "Element,Container",
+        "properties" : {
+          "structurizr.dsl.identifier" : "platform.bots"
+        },
+        "name" : "Bots",
+        "description" : "Bots que vão fazer a comunicação entre o sistema e as ferramentas de comunicação",
+        "relationships" : [ {
+          "id" : "88",
+          "sourceId" : "81",
+          "destinationId" : "11",
+          "description" : "Executa",
+          "technology" : "GraphQL",
+          "linkedRelationshipId" : "87"
+        }, {
+          "id" : "168",
+          "sourceId" : "81",
+          "destinationId" : "1",
+          "description" : "Utiliza",
+          "linkedRelationshipId" : "167"
+        }, {
+          "id" : "85",
+          "sourceId" : "81",
+          "destinationId" : "15",
+          "description" : "Produz",
+          "technology" : "GraphQL",
+          "linkedRelationshipId" : "83"
+        }, {
+          "id" : "86",
+          "sourceId" : "81",
+          "destinationId" : "10",
+          "description" : "Produz",
+          "technology" : "GraphQL",
+          "linkedRelationshipId" : "83"
+        } ],
+        "technology" : "vercel",
+        "components" : [ {
+          "id" : "101",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.bots.messenger"
+          },
+          "name" : "FB Messenger",
+          "description" : "função que vai enviar e receber mensagens via fb messenger",
+          "relationships" : [ {
+            "id" : "104",
+            "tags" : "Relationship",
+            "sourceId" : "101",
+            "destinationId" : "11",
+            "description" : "Executa",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "102",
+            "tags" : "Relationship",
+            "sourceId" : "101",
+            "destinationId" : "15",
+            "description" : "Produz",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "103",
+            "sourceId" : "101",
+            "destinationId" : "10",
+            "description" : "Produz",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "102"
+          } ],
+          "technology" : "twilio",
+          "documentation" : { }
+        }, {
+          "id" : "93",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.bots.whatsapp"
+          },
+          "name" : "WhatsApp",
+          "description" : "função que vai enviar e receber mensagens via whatsapp",
+          "relationships" : [ {
+            "id" : "94",
+            "tags" : "Relationship",
+            "sourceId" : "93",
+            "destinationId" : "15",
+            "description" : "Produz",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "95",
+            "sourceId" : "93",
+            "destinationId" : "10",
+            "description" : "Produz",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "94"
+          }, {
+            "id" : "96",
+            "tags" : "Relationship",
+            "sourceId" : "93",
+            "destinationId" : "11",
+            "description" : "Executa",
+            "technology" : "GraphQL"
+          } ],
+          "technology" : "twilio",
+          "documentation" : { }
+        }, {
+          "id" : "108",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.bots.voice"
+          },
+          "name" : "Voz",
+          "description" : "função que recebe e faz ligação de voz para os clientes",
+          "relationships" : [ {
+            "id" : "109",
+            "tags" : "Relationship",
+            "sourceId" : "108",
+            "destinationId" : "15",
+            "description" : "Produz",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "110",
+            "sourceId" : "108",
+            "destinationId" : "10",
+            "description" : "Produz",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "109"
+          }, {
+            "id" : "111",
+            "tags" : "Relationship",
+            "sourceId" : "108",
+            "destinationId" : "11",
+            "description" : "Executa",
+            "technology" : "GraphQL"
+          } ],
+          "technology" : "twilio",
+          "documentation" : { }
+        }, {
+          "id" : "97",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.bots.instagram"
+          },
+          "name" : "Instagram",
+          "description" : "função que vai enviar e receber mensagens via direct do Instagram",
+          "relationships" : [ {
+            "id" : "99",
+            "sourceId" : "97",
+            "destinationId" : "10",
+            "description" : "Produz",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "98"
+          }, {
+            "id" : "100",
+            "tags" : "Relationship",
+            "sourceId" : "97",
+            "destinationId" : "11",
+            "description" : "Executa",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "98",
+            "tags" : "Relationship",
+            "sourceId" : "97",
+            "destinationId" : "15",
+            "description" : "Produz",
+            "technology" : "GraphQL"
+          } ],
+          "technology" : "twilio",
+          "documentation" : { }
+        }, {
+          "id" : "89",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.bots.web"
+          },
+          "name" : "Web",
+          "description" : "função que vai enviar e receber mensagens via web (chat embutido)",
+          "relationships" : [ {
+            "id" : "92",
+            "tags" : "Relationship",
+            "sourceId" : "89",
+            "destinationId" : "11",
+            "description" : "Executa",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "90",
+            "tags" : "Relationship",
+            "sourceId" : "89",
+            "destinationId" : "15",
+            "description" : "Produz",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "91",
+            "sourceId" : "89",
+            "destinationId" : "10",
+            "description" : "Produz",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "90"
+          } ],
+          "technology" : "vercel",
+          "documentation" : { }
+        }, {
+          "id" : "82",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.bots.telegram"
+          },
+          "name" : "Telegram",
+          "description" : "função que vai enviar e receber mensagens via telegram",
+          "relationships" : [ {
+            "id" : "87",
+            "tags" : "Relationship",
+            "sourceId" : "82",
+            "destinationId" : "11",
+            "description" : "Executa",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "83",
+            "tags" : "Relationship",
+            "sourceId" : "82",
+            "destinationId" : "15",
+            "description" : "Produz",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "84",
+            "sourceId" : "82",
+            "destinationId" : "10",
+            "description" : "Produz",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "83"
+          } ],
+          "technology" : "vercel",
+          "documentation" : { }
+        }, {
+          "id" : "105",
+          "tags" : "Element,Component",
+          "properties" : {
+            "structurizr.dsl.identifier" : "platform.bots.sms"
+          },
+          "name" : "SMS",
+          "description" : "função que envia sms para o cliente",
+          "relationships" : [ {
+            "id" : "167",
+            "tags" : "Relationship",
+            "sourceId" : "105",
+            "destinationId" : "1",
+            "description" : "Utiliza"
+          }, {
+            "id" : "106",
+            "tags" : "Relationship",
+            "sourceId" : "105",
+            "destinationId" : "15",
+            "description" : "Produz",
+            "technology" : "GraphQL"
+          }, {
+            "id" : "107",
+            "sourceId" : "105",
+            "destinationId" : "10",
+            "description" : "Produz",
+            "technology" : "GraphQL",
+            "linkedRelationshipId" : "106"
+          } ],
+          "technology" : "twilio",
+          "documentation" : { }
+        } ],
+        "documentation" : { }
+      } ],
+      "documentation" : { }
+    } ]
+  },
+  "documentation" : {
+    "sections" : [ {
+      "content" : "## Introdução\n\nInicio da documentação.\n\n",
+      "format" : "Markdown",
+      "filename" : "01-Introdução.md",
+      "order" : 1,
+      "title" : ""
+    }, {
+      "content" : "\n## Glossário\n\n- Reseller\n- Client\n- Workspace\n- Package\n- Bot\n- Agent\n- App\n- ",
+      "format" : "Markdown",
+      "filename" : "02-glossário.md",
+      "order" : 2,
+      "title" : ""
+    } ],
+    "decisions" : [ {
+      "content" : "# 1. Record architecture decisions\n\nDate: 2023-04-26\n\n## Status\n\nAccepted\n\n## Context\n\nPrecisamos documentar o andamento do projeto e suas possiveis consequencias.\n\n## Decision\n\nUsaremos ADRs, como descrito no link abaixo:\n[http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions](http://thinkrelevance.com/blog/2011/11/15/documenting-architecture-decisions)\n\n## Consequences\n\nVeja as consequencias no link acima.",
+      "format" : "Markdown",
+      "id" : "1",
+      "title" : "Record architecture decisions",
+      "date" : "2023-04-26T00:00:00Z",
+      "status" : "Accepted"
+    } ]
+  },
+  "views" : {
+    "systemContextViews" : [ {
+      "key" : "SystemContext-001",
+      "order" : 8,
+      "softwareSystemId" : "5",
+      "paperSize" : "A4_Portrait",
+      "dimensions" : {
+        "width" : 1566,
+        "height" : 2916
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "enterpriseBoundaryVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 208,
+        "y" : 208
+      }, {
+        "id" : "2",
+        "x" : 208,
+        "y" : 908
+      }, {
+        "id" : "3",
+        "x" : 208,
+        "y" : 1608
+      }, {
+        "id" : "4",
+        "x" : 208,
+        "y" : 2308
+      }, {
+        "id" : "5",
+        "x" : 908,
+        "y" : 958
+      } ],
+      "relationships" : [ {
+        "id" : "153"
+      }, {
+        "id" : "161"
+      }, {
+        "id" : "150"
+      }, {
+        "id" : "147",
+        "vertices" : [ {
+          "x" : 608,
+          "y" : 2158
+        } ]
+      }, {
+        "id" : "169"
+      } ]
+    } ],
+    "containerViews" : [ {
+      "key" : "Container-001",
+      "order" : 7,
+      "softwareSystemId" : "5",
+      "dimensions" : {
+        "width" : 3790,
+        "height" : 2251
+      },
+      "externalSoftwareSystemBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "25",
+        "x" : 924,
+        "y" : 1385
+      }, {
+        "id" : "27",
+        "x" : 1475,
+        "y" : 1641
+      }, {
+        "id" : "29",
+        "x" : 909,
+        "y" : 900
+      }, {
+        "id" : "1",
+        "x" : 3190,
+        "y" : 910
+      }, {
+        "id" : "134",
+        "x" : 899,
+        "y" : 220
+      }, {
+        "id" : "112",
+        "x" : 2355,
+        "y" : 220
+      }, {
+        "id" : "2",
+        "x" : 200,
+        "y" : 336
+      }, {
+        "id" : "3",
+        "x" : 205,
+        "y" : 851
+      }, {
+        "id" : "4",
+        "x" : 205,
+        "y" : 1345
+      }, {
+        "id" : "6",
+        "x" : 2324,
+        "y" : 1660
+      }, {
+        "id" : "81",
+        "x" : 2344,
+        "y" : 990
+      }, {
+        "id" : "10",
+        "x" : 1630,
+        "y" : 995
+      } ],
+      "relationships" : [ {
+        "id" : "160",
+        "vertices" : [ {
+          "x" : 2975,
+          "y" : 1045
+        } ]
+      }, {
+        "id" : "141"
+      }, {
+        "id" : "86"
+      }, {
+        "id" : "152"
+      }, {
+        "id" : "118"
+      }, {
+        "id" : "17",
+        "vertices" : [ {
+          "x" : 2294,
+          "y" : 1480
+        } ]
+      }, {
+        "id" : "28"
+      }, {
+        "id" : "26"
+      }, {
+        "id" : "13",
+        "vertices" : [ {
+          "x" : 2094,
+          "y" : 1675
+        } ]
+      }, {
+        "id" : "34"
+      }, {
+        "id" : "122"
+      }, {
+        "id" : "168",
+        "vertices" : [ {
+          "x" : 2980,
+          "y" : 1235
+        } ]
+      }, {
+        "id" : "146"
+      }, {
+        "id" : "113",
+        "vertices" : [ {
+          "x" : 2324,
+          "y" : 935
+        } ]
+      }, {
+        "id" : "149"
+      }, {
+        "id" : "139"
+      } ]
+    } ],
+    "componentViews" : [ {
+      "key" : "Component-004",
+      "order" : 4,
+      "paperSize" : "A2_Portrait",
+      "dimensions" : {
+        "width" : 2316,
+        "height" : 5158
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "29",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "46",
+        "x" : 908,
+        "y" : 1529
+      }, {
+        "id" : "69",
+        "x" : 908,
+        "y" : 2129
+      }, {
+        "id" : "59",
+        "x" : 908,
+        "y" : 2729
+      }, {
+        "id" : "39",
+        "x" : 908,
+        "y" : 3929
+      }, {
+        "id" : "2",
+        "x" : 208,
+        "y" : 1779
+      }, {
+        "id" : "3",
+        "x" : 208,
+        "y" : 3829
+      }, {
+        "id" : "4",
+        "x" : 208,
+        "y" : 4529
+      }, {
+        "id" : "30",
+        "x" : 908,
+        "y" : 4529
+      }, {
+        "id" : "64",
+        "x" : 908,
+        "y" : 3329
+      }, {
+        "id" : "53",
+        "x" : 908,
+        "y" : 329
+      }, {
+        "id" : "10",
+        "x" : 1658,
+        "y" : 2429
+      }, {
+        "id" : "76",
+        "x" : 908,
+        "y" : 929
+      } ],
+      "relationships" : [ {
+        "id" : "61"
+      }, {
+        "id" : "71"
+      }, {
+        "id" : "41",
+        "vertices" : [ {
+          "x" : 1462,
+          "y" : 3779
+        } ]
+      }, {
+        "id" : "151"
+      }, {
+        "id" : "32",
+        "vertices" : [ {
+          "x" : 1462,
+          "y" : 4379
+        } ]
+      }, {
+        "id" : "157",
+        "vertices" : [ {
+          "x" : 804,
+          "y" : 3179
+        } ]
+      }, {
+        "id" : "78",
+        "vertices" : [ {
+          "x" : 1462,
+          "y" : 1379
+        } ]
+      }, {
+        "id" : "55",
+        "vertices" : [ {
+          "x" : 1462,
+          "y" : 779
+        } ]
+      }, {
+        "id" : "145"
+      }, {
+        "id" : "66",
+        "vertices" : [ {
+          "x" : 1462,
+          "y" : 3179
+        } ]
+      }, {
+        "id" : "156",
+        "vertices" : [ {
+          "x" : 804,
+          "y" : 1379
+        } ]
+      }, {
+        "id" : "155"
+      }, {
+        "id" : "154",
+        "vertices" : [ {
+          "x" : 804,
+          "y" : 779
+        } ]
+      }, {
+        "id" : "48",
+        "vertices" : [ {
+          "x" : 1462,
+          "y" : 1979
+        } ]
+      }, {
+        "id" : "158",
+        "vertices" : [ {
+          "x" : 804,
+          "y" : 2579
+        } ]
+      }, {
+        "id" : "148"
+      } ]
+    }, {
+      "key" : "Component-001",
+      "order" : 1,
+      "dimensions" : {
+        "width" : 7020,
+        "height" : 2591
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "TopBottom",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "10",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "11",
+        "x" : 6219,
+        "y" : 2000
+      }, {
+        "id" : "23",
+        "x" : 2469,
+        "y" : 2000
+      }, {
+        "id" : "24",
+        "x" : 1719,
+        "y" : 2000
+      }, {
+        "id" : "14",
+        "x" : 3969,
+        "y" : 2000
+      }, {
+        "id" : "15",
+        "x" : 5469,
+        "y" : 2000
+      }, {
+        "id" : "29",
+        "x" : 2469,
+        "y" : 1400
+      }, {
+        "id" : "18",
+        "x" : 4719,
+        "y" : 2000
+      }, {
+        "id" : "19",
+        "x" : 969,
+        "y" : 2000
+      }, {
+        "id" : "112",
+        "x" : 5540,
+        "y" : 800
+      }, {
+        "id" : "134",
+        "x" : 4556,
+        "y" : 200
+      }, {
+        "id" : "6",
+        "x" : 4860,
+        "y" : 1400
+      }, {
+        "id" : "81",
+        "x" : 6219,
+        "y" : 1400
+      }, {
+        "id" : "20",
+        "x" : 219,
+        "y" : 2000
+      }, {
+        "id" : "21",
+        "x" : 3219,
+        "y" : 2000
+      } ],
+      "relationships" : [ {
+        "id" : "141"
+      }, {
+        "id" : "73",
+        "vertices" : [ {
+          "x" : 4569,
+          "y" : 1896
+        } ]
+      }, {
+        "id" : "52"
+      }, {
+        "id" : "120"
+      }, {
+        "id" : "85"
+      }, {
+        "id" : "16"
+      }, {
+        "id" : "36"
+      }, {
+        "id" : "12",
+        "vertices" : [ {
+          "x" : 6069,
+          "y" : 1896
+        } ]
+      }, {
+        "id" : "22",
+        "vertices" : [ {
+          "x" : 3819,
+          "y" : 1896
+        } ]
+      }, {
+        "id" : "33",
+        "vertices" : [ {
+          "x" : 3569,
+          "y" : 1700
+        }, {
+          "x" : 5319,
+          "y" : 1896
+        } ]
+      }, {
+        "id" : "122"
+      }, {
+        "id" : "45",
+        "vertices" : [ {
+          "x" : 819,
+          "y" : 1896
+        } ]
+      }, {
+        "id" : "88"
+      }, {
+        "id" : "58"
+      }, {
+        "id" : "138",
+        "vertices" : [ {
+          "x" : 4710,
+          "y" : 1400
+        }, {
+          "x" : 4710,
+          "y" : 1700
+        }, {
+          "x" : 5319,
+          "y" : 1896
+        } ]
+      }, {
+        "id" : "38",
+        "vertices" : [ {
+          "x" : 1569,
+          "y" : 1896
+        } ]
+      }, {
+        "id" : "128",
+        "vertices" : [ {
+          "x" : 6819,
+          "y" : 1400
+        }, {
+          "x" : 6819,
+          "y" : 1700
+        } ]
+      }, {
+        "id" : "117",
+        "vertices" : [ {
+          "x" : 4710,
+          "y" : 1400
+        }, {
+          "x" : 4710,
+          "y" : 1700
+        } ]
+      } ]
+    }, {
+      "key" : "Component-003",
+      "order" : 3,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2504,
+        "height" : 2170
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "112",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "123",
+        "x" : 329,
+        "y" : 358
+      }, {
+        "id" : "114",
+        "x" : 329,
+        "y" : 958
+      }, {
+        "id" : "81",
+        "x" : 1079,
+        "y" : 358
+      }, {
+        "id" : "130",
+        "x" : 329,
+        "y" : 1558
+      }, {
+        "id" : "10",
+        "x" : 1829,
+        "y" : 662
+      } ],
+      "relationships" : [ {
+        "id" : "129"
+      }, {
+        "id" : "86"
+      }, {
+        "id" : "121"
+      }, {
+        "id" : "132"
+      }, {
+        "id" : "125",
+        "vertices" : [ {
+          "x" : 1079,
+          "y" : 208
+        }, {
+          "x" : 1529,
+          "y" : 208
+        } ]
+      }, {
+        "id" : "116"
+      } ]
+    }, {
+      "key" : "Component-002",
+      "order" : 2,
+      "paperSize" : "A4_Landscape",
+      "dimensions" : {
+        "width" : 2504,
+        "height" : 2025
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "134",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "112",
+        "x" : 1079,
+        "y" : 208
+      }, {
+        "id" : "135",
+        "x" : 329,
+        "y" : 812
+      }, {
+        "id" : "10",
+        "x" : 1829,
+        "y" : 512
+      }, {
+        "id" : "142",
+        "x" : 329,
+        "y" : 1412
+      } ],
+      "relationships" : [ {
+        "id" : "118"
+      }, {
+        "id" : "140"
+      }, {
+        "id" : "113"
+      }, {
+        "id" : "144"
+      }, {
+        "id" : "137"
+      } ]
+    }, {
+      "key" : "Component-006",
+      "order" : 6,
+      "paperSize" : "A5_Portrait",
+      "dimensions" : {
+        "width" : 1108,
+        "height" : 2158
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "6",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "7",
+        "x" : 329,
+        "y" : 329
+      }, {
+        "id" : "8",
+        "x" : 329,
+        "y" : 929
+      }, {
+        "id" : "9",
+        "x" : 329,
+        "y" : 1529
+      } ]
+    }, {
+      "key" : "Component-005",
+      "order" : 5,
+      "paperSize" : "A3_Portrait",
+      "dimensions" : {
+        "width" : 2316,
+        "height" : 4558
+      },
+      "automaticLayout" : {
+        "implementation" : "Graphviz",
+        "rankDirection" : "LeftRight",
+        "rankSeparation" : 300,
+        "nodeSeparation" : 300,
+        "edgeSeparation" : 0,
+        "vertices" : false
+      },
+      "containerId" : "81",
+      "externalContainerBoundariesVisible" : true,
+      "elements" : [ {
+        "id" : "1",
+        "x" : 208,
+        "y" : 2079
+      }, {
+        "id" : "89",
+        "x" : 908,
+        "y" : 329
+      }, {
+        "id" : "101",
+        "x" : 908,
+        "y" : 929
+      }, {
+        "id" : "105",
+        "x" : 908,
+        "y" : 1529
+      }, {
+        "id" : "108",
+        "x" : 908,
+        "y" : 2129
+      }, {
+        "id" : "82",
+        "x" : 908,
+        "y" : 2729
+      }, {
+        "id" : "93",
+        "x" : 908,
+        "y" : 3329
+      }, {
+        "id" : "97",
+        "x" : 908,
+        "y" : 3929
+      }, {
+        "id" : "10",
+        "x" : 1658,
+        "y" : 2129
+      } ],
+      "relationships" : [ {
+        "id" : "91",
+        "vertices" : [ {
+          "x" : 1462,
+          "y" : 779
+        } ]
+      }, {
+        "id" : "164",
+        "vertices" : [ {
+          "x" : 804,
+          "y" : 1379
+        } ]
+      }, {
+        "id" : "163",
+        "vertices" : [ {
+          "x" : 804,
+          "y" : 3779
+        } ]
+      }, {
+        "id" : "84"
+      }, {
+        "id" : "162"
+      }, {
+        "id" : "95",
+        "vertices" : [ {
+          "x" : 1462,
+          "y" : 3179
+        } ]
+      }, {
+        "id" : "107"
+      }, {
+        "id" : "110"
+      }, {
+        "id" : "167"
+      }, {
+        "id" : "166"
+      }, {
+        "id" : "99",
+        "vertices" : [ {
+          "x" : 1462,
+          "y" : 3779
+        } ]
+      }, {
+        "id" : "165",
+        "vertices" : [ {
+          "x" : 804,
+          "y" : 3179
+        } ]
+      }, {
+        "id" : "103",
+        "vertices" : [ {
+          "x" : 1462,
+          "y" : 1379
+        } ]
+      }, {
+        "id" : "159",
+        "vertices" : [ {
+          "x" : 804,
+          "y" : 779
+        } ]
+      } ]
+    } ],
+    "configuration" : {
+      "branding" : { },
+      "styles" : {
+        "elements" : [ {
+          "tag" : "Customer",
+          "background" : "#999999"
+        }, {
+          "tag" : "B2B",
+          "background" : "#3f8624",
+          "color" : "#ffffff"
+        }, {
+          "tag" : "Resell",
+          "background" : "#693cc5",
+          "color" : "#ffffff"
+        } ]
+      },
+      "themes" : [ "https://static.structurizr.com/themes/default/theme.json", "https://static.structurizr.com/themes/amazon-web-services-2020.04.30/theme.json" ],
+      "terminology" : { },
+      "metadataSymbols" : "SquareBrackets",
+      "lastSavedView" : "Component-001"
+    }
+  }
+}

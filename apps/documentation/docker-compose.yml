@@ -1,0 +1,7 @@
+services:
+  web:
+    image: structurizr/lite
+    volumes:
+      - .:/usr/local/structurizr
+    ports:
+      - "5000:8080"
