@@ -12,7 +12,7 @@ type ToggleButtonGroupProps = {
   defaultValue?: string | string[]
   onChange: (value: string | string[]) => void
   children: React.ReactNode
-} & ButtonGroupProps
+} & Omit<ButtonGroupProps, 'onChange'>
 
 const getStateValue = (type: string, defaultValue?: string | string[]) => {
   if (type === 'checkbox') {

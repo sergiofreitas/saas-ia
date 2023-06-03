@@ -5,10 +5,16 @@ import { useTranslate } from '@refinedev/core'
 import { Button } from '@saas-ui/react'
 import { useDataTable, DataTable, Page, ColumnDropdown } from 'ui'
 
-const Tabbar = ({ label }: { label: string }) => (
+type TabbarProps = {
+  label: string
+  title: string
+  table: any
+}
+
+const Tabbar: React.FC<TabbarProps> = ({ table, title, label }) => (
   <>
     <Spacer />
-    <ColumnDropdown title="Display Columns">
+    <ColumnDropdown title={title} table={table}>
       <Button variant="outline" size="sm">
         {label}
       </Button>
@@ -20,12 +26,12 @@ const columns = [
   {
     id: 'id',
     header: 'ID',
-    accessorKey: 'id',
+    accessorKey: 'avatarUrl',
   },
   {
     id: 'name',
     header: 'Name',
-    accessorKey: 'name',
+    accessorKey: 'displayName',
   },
 ]
 
@@ -42,8 +48,12 @@ const ProfilePage = () => {
   })
 
   return (
-    <Page title="Profile" maxW="full" tabbar={<Tabbar label={t('table.view')} />}>
-      <p>Conteudo</p>
+    <Page
+      title="Profile"
+      maxW="full"
+      tabbar={<Tabbar label={t('table.view')} title={t('table.columns.title')} table={table} />}
+    >
+      <DataTable table={table} />
     </Page>
   )
 }
