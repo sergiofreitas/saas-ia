@@ -1,28 +1,18 @@
 import { BaseRecord, HttpError } from '@refinedev/core'
 import { flexRender } from '@tanstack/react-table'
-import { Checkbox, Table, TableContainer, Tbody, Td, Th, Thead, Tr, VStack, forwardRef } from '@chakra-ui/react'
+import { Table, TableContainer, Tbody, Td, Th, Thead, Tr, VStack } from '@chakra-ui/react'
 import { UseDataTableReturn } from './hooks/useDataTable'
+import { DataTableCheckbox } from './ui/checkbox'
+import { Pagination } from './ui/pagination'
 
 type DataTableProps<TData extends BaseRecord = BaseRecord, TError extends HttpError = HttpError> = {
   table: UseDataTableReturn<TData, TError>
 }
 
-const DataTableCheckbox = forwardRef((props, ref) => {
-  const { checked, indeterminate, ...rest } = props
-
-  return (
-    <div>
-      <Checkbox ref={ref} isChecked={checked} isIndeterminate={indeterminate} {...rest} />
-    </div>
-  )
-})
-
-DataTableCheckbox.displayName = 'DataTableCheckbox'
-
 export const DataTable: React.FC<DataTableProps> = ({ table }) => {
   return (
-    <VStack width="100%" height="100%" alignItems="stretch">
-      <TableContainer flex="1">
+    <VStack width="100%" height="100%" flex="auto" alignItems="stretch">
+      <TableContainer flex="auto">
         <Table size="sm">
           <Thead>
             {table.getHeaderGroups().map((headerGroup) => (
@@ -67,6 +57,7 @@ export const DataTable: React.FC<DataTableProps> = ({ table }) => {
           </Tbody>
         </Table>
       </TableContainer>
+      <Pagination table={table} />
     </VStack>
   )
 }
