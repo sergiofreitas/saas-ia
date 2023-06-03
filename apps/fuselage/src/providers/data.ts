@@ -1,5 +1,7 @@
 import { NhostClient } from '@nhost/nhost-js'
-import dataProvider, { GraphQLClient, graphqlWS } from '@refinedev/hasura'
+import dataProvider, { GraphQLClient, graphqlWS } from '@/domains/data'
+
+export { liveProvider } from '@/domains/data'
 
 export const nhost = new NhostClient({
   subdomain: process.env.NEXT_PUBLIC_NHOST_SUBDOMAIN,
@@ -12,9 +14,16 @@ export const gqlWebSocketClient = graphqlWS.createClient({
 
 const createDataProvider = () => {
   const client = new GraphQLClient(nhost.graphql.httpUrl, {
-    headers: {
-      // TODO: mudar para que envie o role do user logado, ou public se não existir token
-      'x-hasura-role': 'public',
+    headers: () => {
+      if (nhost.auth.isAuthenticated()) {
+        return {
+          authorization: `Bearer ${nhost.auth.getAccessToken()}`,
+        }
+      }
+
+      return {
+        'x-hasura-role': 'public',
+      }
     },
   })
 

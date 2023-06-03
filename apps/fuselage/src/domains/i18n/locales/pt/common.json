@@ -4,6 +4,15 @@
     "preferences": "Preferências",
     "signout": "Sair"
   },
+  "menu": {
+    "settings": {
+      "title": "Configurações",
+      "labels": {
+        "overview": "Resumo",
+        "users": "Usuários"
+      } 
+    }
+  },
   "pages": {
     "login": {
       "title": "Bem vindo a sua conta",
@@ -114,7 +123,8 @@
     }
   },
   "table": {
-    "actions": "Actions"
+    "actions": "Actions",
+    "view": "Colunas"
   },
   "backend": {
     "login-error": {

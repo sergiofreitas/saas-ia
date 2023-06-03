@@ -120,3 +120,17 @@ array_relationships:
         table:
           name: user_providers
           schema: auth
+select_permissions:
+  - role: user
+    permission:
+      columns:
+        - avatar_url
+        - default_role
+        - display_name
+        - email
+        - locale
+        - phone_number
+      filter:
+        id:
+          _eq: X-Hasura-User-Id
+      allow_aggregations: true
