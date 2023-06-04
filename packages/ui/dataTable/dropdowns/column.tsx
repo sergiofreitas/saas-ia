@@ -1,6 +1,4 @@
-import { useMemo } from 'react'
 import { BaseRecord, HttpError } from '@refinedev/core'
-import { flexRender } from '@tanstack/react-table'
 import { Popover, PopoverTrigger, PopoverContent, PopoverBody, Text } from '@chakra-ui/react'
 import { UseTableReturnType } from '@refinedev/react-table'
 import { ToggleButton, ToggleButtonGroup } from '../../toggleButton'

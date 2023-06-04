@@ -55,7 +55,7 @@ const PageHeader: React.FC<PageHeaderProps> = ({ title, toolbar, nav, tabbar, de
         </Box>
       </HStack>
       {tabbar && (
-        <HStack px={6} py={2} minHeight={14} borderBottomWidth={1}>
+        <HStack px={6} py={2} minHeight={12} borderBottomWidth={1}>
           {tabbar}
         </HStack>
       )}
