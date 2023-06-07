@@ -16,6 +16,13 @@ export const FilterDropdown: React.FC<FilterDropdownProps> = ({ table, children 
 
 /**
  * Filter type:
+ * - text
+ * - number
+ * - enum
+ * - date
+ * - boolean
+ *
+ *
  * - Lista de opções (é igual, não é igual, é um destes)
  * - Lista de opções (contem e não contem)
  * - Modal de texto (contem e não contem)

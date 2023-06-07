@@ -3,7 +3,7 @@
 import { Spacer } from '@chakra-ui/react'
 import { useTranslate } from '@refinedev/core'
 import { Button } from '@saas-ui/react'
-import { IconPlus } from '@tabler/icons-react'
+import { IconCalendar, IconPlus, IconUser } from '@tabler/icons-react'
 import {
   type UseDataTableReturn,
   useDataTable,
@@ -36,6 +36,7 @@ const Tabbar: React.FC<TabbarProps> = ({ table, title, label }) => (
         if (value === 'all') {
           header.column.setFilterValue(null)
         } else {
+          ;(header.column.columnDef as any).meta.filterOperator = 'contains'
           header.column.setFilterValue(value)
         }
       }}
@@ -72,6 +73,30 @@ const columns = [
       filterOperator: 'contains',
       ui: {
         type: 'text',
+        icon: IconUser,
+      },
+    },
+  },
+  {
+    id: 'createdAt',
+    header: 'Criado Em',
+    accessorKey: 'createdAt',
+    meta: {
+      filterOperator: 'lte',
+      ui: {
+        type: 'date',
+        icon: IconCalendar,
+      },
+    },
+  },
+  {
+    id: 'isAnonymous',
+    header: 'Anonimo',
+    accessorKey: 'isAnonymous',
+    meta: {
+      filterOperator: 'eq',
+      ui: {
+        type: 'boolean',
       },
     },
   },
@@ -84,7 +109,7 @@ const ProfilePage = () => {
     refineCoreProps: {
       resource: 'users',
       metaData: {
-        fields: ['avatarUrl', 'displayName', 'defaultRole', 'email'],
+        fields: ['avatarUrl', 'displayName', 'createdAt', 'email', 'isAnonymous'],
       },
     },
   })

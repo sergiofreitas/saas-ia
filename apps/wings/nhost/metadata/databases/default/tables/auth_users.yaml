@@ -125,10 +125,13 @@ select_permissions:
     permission:
       columns:
         - avatar_url
+        - created_at
         - default_role
         - display_name
         - email
+        - is_anonymous
         - locale
+        - new_email
         - phone_number
       filter:
         id:

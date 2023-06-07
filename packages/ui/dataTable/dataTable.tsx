@@ -43,13 +43,18 @@ export const DataTable: React.FC<DataTableProps> = ({ table }) => {
 
   if (table.isFetched && table.refineCore.tableQueryResult.data?.total === 0) {
     return (
-      <VStack width="100%" height="100%" position="relative">
+      <VStack width="100%" height="100%" flex="auto" alignItems="stretch">
+        <FilterBar table={table} />
         <EmptyState
           colorScheme="primary"
           icon={IconTableFilled}
           title="Nenhum resultado encontrado"
           description="Nenhum resultado encontrado com na busca realizada"
-          actions={<Button variant="ghost">Limpar Filtros</Button>}
+          actions={
+            <Button variant="ghost" onClick={() => table.resetColumnFilters(true)}>
+              Limpar Filtros
+            </Button>
+          }
         />
       </VStack>
     )

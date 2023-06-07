@@ -9,7 +9,7 @@ type FilterBarProps<TData extends BaseRecord = BaseRecord, TError extends HttpEr
 }
 
 export const FilterBar: React.FC<FilterBarProps> = ({ table }) => {
-  const { activated, removeFilter } = useFilters(table)
+  const { activated, appendFilter, removeFilter } = useFilters(table)
 
   if (!activated.length) {
     return null
@@ -28,12 +28,16 @@ export const FilterBar: React.FC<FilterBarProps> = ({ table }) => {
       <Wrap flex="1" spacing="12px">
         {activated.map((filter) => (
           <WrapItem key={`filter-${filter.column.id}`}>
-            <FilterListItem filter={filter} onRemove={() => removeFilter(filter)} />
+            <FilterListItem
+              filter={filter}
+              onRemove={() => removeFilter(filter)}
+              onChange={(value, operator) => appendFilter(filter, value, operator)}
+            />
           </WrapItem>
         ))}
       </Wrap>
       <Button size="sm" variant="ghost" onClick={() => table.resetColumnFilters(true)}>
-        Clear filters
+        Limpar filtros
       </Button>
     </HStack>
   )

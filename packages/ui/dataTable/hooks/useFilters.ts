@@ -11,7 +11,7 @@ type UseFilterReturn<TData extends BaseRecord = BaseRecord> = {
 
 export type FilterItem<TData extends BaseRecord = BaseRecord> = {
   column: Column<TData>
-  ui: { type: 'text'; label: string } | { type: 'date' }
+  ui: { type: 'text'; label: string; icon?: any } | { type: 'date'; icon?: any } | { type: 'boolean'; icon?: any }
 }
 
 export type ActiveFilterItem<TData extends BaseRecord = BaseRecord> = {
