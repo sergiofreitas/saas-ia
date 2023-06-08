@@ -72,8 +72,23 @@ const columns = [
     meta: {
       filterOperator: 'contains',
       ui: {
-        type: 'text',
+        type: 'enum',
         icon: IconUser,
+        options: [
+          {
+            value: 'sergio.sgfreitas@gmail.com',
+            label: 'Sérgio',
+          },
+          {
+            value: 'old',
+            label: (
+              <>
+                <IconCalendar size={14} style={{ marginRight: '0.3rem' }} />
+                Old
+              </>
+            ),
+          },
+        ],
       },
     },
   },

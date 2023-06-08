@@ -2,7 +2,7 @@
 
 import NextLink, { type LinkProps } from 'next/link'
 import { Refine } from '@refinedev/core'
-import { SaasProvider } from '@saas-ui/react'
+import { SaasProvider, ModalsProvider } from '@saas-ui/react'
 import routerProvider from '@refinedev/nextjs-router/app'
 import { cookieStorageManagerSSR } from '@chakra-ui/react'
 
@@ -26,24 +26,26 @@ export const App = ({ children, cookies }: { children: React.ReactNode; cookies:
 
   return (
     <SaasProvider linkComponent={Link} theme={theme} colorModeManager={colorModeManager}>
-      <MenuContext.Provider value={menu}>
-        <Refine
-          authProvider={authProvider}
-          routerProvider={routerProvider}
-          dataProvider={createDataProvider()}
-          accessControlProvider={accessControlProvider}
-          i18nProvider={createI18nProvider(translate)}
-          liveProvider={liveProvider(gqlWebSocketClient)}
-          notificationProvider={notificationProvider(translate.t)}
-          resources={resources}
-          options={{
-            syncWithLocation: true,
-            warnWhenUnsavedChanges: true,
-          }}
-        >
-          {children}
-        </Refine>
-      </MenuContext.Provider>
+      <ModalsProvider>
+        <MenuContext.Provider value={menu}>
+          <Refine
+            authProvider={authProvider}
+            routerProvider={routerProvider}
+            dataProvider={createDataProvider()}
+            accessControlProvider={accessControlProvider}
+            i18nProvider={createI18nProvider(translate)}
+            liveProvider={liveProvider(gqlWebSocketClient)}
+            notificationProvider={notificationProvider(translate.t)}
+            resources={resources}
+            options={{
+              syncWithLocation: true,
+              warnWhenUnsavedChanges: true,
+            }}
+          >
+            {children}
+          </Refine>
+        </MenuContext.Provider>
+      </ModalsProvider>
     </SaasProvider>
   )
 }

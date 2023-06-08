@@ -9,9 +9,21 @@ type UseFilterReturn<TData extends BaseRecord = BaseRecord> = {
   removeFilter: (filter: FilterItem<TData>) => void
 }
 
+export type EnumItem = {
+  value: string
+  label: React.ReactNode
+}
+
+export type EnumUI = { type: 'enum'; icon?: any; options: EnumItem[] }
+
 export type FilterItem<TData extends BaseRecord = BaseRecord> = {
   column: Column<TData>
-  ui: { type: 'text'; label: string; icon?: any } | { type: 'date'; icon?: any } | { type: 'boolean'; icon?: any }
+  ui:
+    | EnumUI
+    | { type: 'text'; icon?: any }
+    | { type: 'date'; icon?: any }
+    | { type: 'boolean'; icon?: any }
+    | { type: 'number'; icon?: any }
 }
 
 export type ActiveFilterItem<TData extends BaseRecord = BaseRecord> = {

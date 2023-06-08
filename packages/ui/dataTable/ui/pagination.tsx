@@ -15,7 +15,7 @@ export const Pagination: React.FC<PaginationProps> = ({ table }) => {
   return (
     <HStack alignItems="center" justifyContent="space-between" p={4} borderTopWidth={1}>
       <HStack alignItems="center" gap={1}>
-        <Text fontSize="md">Page</Text>
+        <Text fontSize="md">Página</Text>
         <Form
           onSubmit={(values) => {
             table.setPageIndex(Number(values.page) - 1)
