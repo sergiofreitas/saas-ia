@@ -12,6 +12,7 @@ type UseFilterReturn<TData extends BaseRecord = BaseRecord> = {
 export type EnumItem = {
   value: string
   label: React.ReactNode
+  icon?: React.ReactElement
 }
 
 export type EnumUI = { type: 'enum'; icon?: any; options: EnumItem[] }

@@ -2,7 +2,7 @@
 
 import { Spacer } from '@chakra-ui/react'
 import { useTranslate } from '@refinedev/core'
-import { Button } from '@saas-ui/react'
+import { Button, MenuButton } from '@saas-ui/react'
 import { IconCalendar, IconPlus, IconUser } from '@tabler/icons-react'
 import {
   type UseDataTableReturn,
@@ -36,7 +36,7 @@ const Tabbar: React.FC<TabbarProps> = ({ table, title, label }) => (
         if (value === 'all') {
           header.column.setFilterValue(null)
         } else {
-          ;(header.column.columnDef as any).meta.filterOperator = 'contains'
+          ;(header.column.columnDef as any).meta.filterOperator = 'eq'
           header.column.setFilterValue(value)
         }
       }}
@@ -46,9 +46,9 @@ const Tabbar: React.FC<TabbarProps> = ({ table, title, label }) => (
       <ToggleButton value="old">Antigos</ToggleButton>
     </ToggleButtonGroup>
     <FilterDropdown table={table}>
-      <Button variant="outline" size="xs" leftIcon={<IconPlus size={12} />} borderStyle="dashed">
+      <MenuButton as={Button} variant="outline" size="xs" leftIcon={<IconPlus size={12} />} borderStyle="dashed">
         Filtro
-      </Button>
+      </MenuButton>
     </FilterDropdown>
     <Spacer />
     <ColumnDropdown title={title} table={table}>
@@ -72,7 +72,7 @@ const columns = [
     meta: {
       filterOperator: 'contains',
       ui: {
-        type: 'enum',
+        type: 'text',
         icon: IconUser,
         options: [
           {
@@ -81,12 +81,8 @@ const columns = [
           },
           {
             value: 'old',
-            label: (
-              <>
-                <IconCalendar size={14} style={{ marginRight: '0.3rem' }} />
-                Old
-              </>
-            ),
+            icon: <IconCalendar size={14} style={{ marginRight: '0.3rem' }} />,
+            label: 'Old',
           },
         ],
       },

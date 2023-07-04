@@ -1,4 +1,4 @@
-import { Button, IconButton, Text, HStack, Menu, MenuButton, MenuList, MenuItem } from '@chakra-ui/react'
+import { IconButton, Text, HStack } from '@chakra-ui/react'
 import { ActiveFilterItem, FilterItem } from '../hooks/useFilters'
 import { IconX, IconCircle } from '@tabler/icons-react'
 import { FilterOperator } from './operator'
